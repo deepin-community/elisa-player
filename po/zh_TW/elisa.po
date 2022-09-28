@@ -1,0 +1,1432 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# pan93412 <pan93412@gmail.com>, 2019, 2020.
+# Jeff Huang <s8321414@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: elisa\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-16 01:42+0000\n"
+"PO-Revision-Date: 2020-09-17 14:33+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: Traditional Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 19.08.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "pan93412, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pan93412@gmail.com, s8321414@gmail.com"
+
+#: databaseinterface.cpp:7087 databaseinterface.cpp:8129
+#: databaseinterface.cpp:8213
+#, kde-format
+msgid "Various Artists"
+msgstr "多名藝人"
+
+#: databaseinterface.cpp:7151
+#, kde-format
+msgid "Radios"
+msgstr "廣播"
+
+#: elisaapplication.cpp:176
+#, fuzzy, kde-format
+#| msgctxt "Remove all tracks from play list"
+#| msgid "Clear Playlist"
+msgid "Toggle Playlist"
+msgstr "清空播放清單"
+
+#: elisaapplication.cpp:181
+#, kde-format
+msgid "Seek forward 10 seconds"
+msgstr ""
+
+#: elisaapplication.cpp:187
+#, kde-format
+msgid "Scrub backwards 10 seconds"
+msgstr ""
+
+#: elisaapplication.cpp:193
+#, fuzzy, kde-format
+#| msgctxt "number of imported tracks"
+#| msgid "Imported one track"
+#| msgid_plural "Imported %1 tracks"
+msgid "Go to next track"
+msgstr "已匯入 %1 個音軌"
+
+#: elisaapplication.cpp:199
+#, kde-format
+msgid "Go to previous track"
+msgstr ""
+
+#: elisaapplication.cpp:205
+#, fuzzy, kde-format
+#| msgid "Pause"
+msgid "Play/pause"
+msgstr "暫停"
+
+#: elisaapplication.cpp:216
+#, fuzzy, kde-format
+#| msgctxt "Toggle between ascending and descending order"
+#| msgid "Toggle sort order"
+msgid "Toggle Party Mode"
+msgstr "切換排序順序"
+
+#: main.cpp:106 qml/ElisaMainWindow.qml:56 qml/mobile/MobileSidebar.qml:20
+#, kde-format
+msgid "Elisa"
+msgstr "Elisa"
+
+#: main.cpp:108
+#, kde-format
+msgid "A Simple Music Player made with love by the KDE community"
+msgstr "KDE 社群用愛做出來的簡易音樂播放器"
+
+#: main.cpp:110
+#, kde-format
+msgid "(c) 2015-2020, Elisa contributors"
+msgstr "(c) 2015-2020, Elisa 貢獻群"
+
+#: main.cpp:112
+#, kde-format
+msgid "Creator"
+msgstr "建立者"
+
+#: main.cpp:113
+#, kde-format
+msgid "Author"
+msgstr "作者"
+
+#: main.cpp:115
+#, kde-format
+msgid "Concept and design work"
+msgstr "概念及設計工作"
+
+#: main.cpp:116
+#, kde-format
+msgid "Localization support"
+msgstr "本地化支援"
+
+#: main.cpp:117
+#, kde-format
+msgid "Right to left support in interface"
+msgstr "在介面支援右至左文字 (RTL)"
+
+#: main.cpp:118
+#, kde-format
+msgid "Various improvements to the interface"
+msgstr "各種介面改良"
+
+#: main.cpp:119
+#, kde-format
+msgid "Support for online radios"
+msgstr "支援線上廣播"
+
+#: models/editabletrackmetadatamodel.cpp:348
+#, kde-format
+msgctxt "Error message when track URL is invalid"
+msgid "Invalid URL."
+msgstr "網址無效。"
+
+#: models/editabletrackmetadatamodel.cpp:358
+#, kde-format
+msgctxt "Error message when track title is empty"
+msgid "Empty title."
+msgstr "標題空白。"
+
+#: models/trackmetadatamodel.cpp:440 models/trackmetadatamodel.cpp:487
+#, kde-format
+msgctxt "Track title for track metadata view"
+msgid "Title"
+msgstr "標題"
+
+#: models/trackmetadatamodel.cpp:442 models/trackmetadatamodel.cpp:493
+#, kde-format
+msgctxt "Track artist for track metadata view"
+msgid "Artist"
+msgstr "藝人"
+
+#: models/trackmetadatamodel.cpp:444 models/trackmetadatamodel.cpp:496
+#, kde-format
+msgctxt "Album name for track metadata view"
+msgid "Album"
+msgstr "專輯"
+
+#: models/trackmetadatamodel.cpp:446 models/trackmetadatamodel.cpp:499
+#, kde-format
+msgctxt "Album artist for track metadata view"
+msgid "Album Artist"
+msgstr "專輯作曲者"
+
+#: models/trackmetadatamodel.cpp:448 models/trackmetadatamodel.cpp:502
+#, kde-format
+msgctxt "Track number for track metadata view"
+msgid "Track Number"
+msgstr "音軌號碼"
+
+#: models/trackmetadatamodel.cpp:450 models/trackmetadatamodel.cpp:505
+#, kde-format
+msgctxt "Disc number for track metadata view"
+msgid "Disc Number"
+msgstr "光碟號碼"
+
+#: models/trackmetadatamodel.cpp:452 models/trackmetadatamodel.cpp:508
+#, kde-format
+msgctxt "Rating label for information panel"
+msgid "Rating"
+msgstr "評分"
+
+#: models/trackmetadatamodel.cpp:454 models/trackmetadatamodel.cpp:511
+#, kde-format
+msgctxt "Genre label for track metadata view"
+msgid "Genre"
+msgstr "曲風"
+
+#: models/trackmetadatamodel.cpp:456 models/trackmetadatamodel.cpp:514
+#, kde-format
+msgctxt "Lyricist label for track metadata view"
+msgid "Lyricist"
+msgstr "作詞者"
+
+#: models/trackmetadatamodel.cpp:458 models/trackmetadatamodel.cpp:517
+#, kde-format
+msgctxt "Composer name for track metadata view"
+msgid "Composer"
+msgstr "作曲者"
+
+#: models/trackmetadatamodel.cpp:460 models/trackmetadatamodel.cpp:520
+#, kde-format
+msgctxt "Comment label for track metadata view"
+msgid "Comment"
+msgstr "備註"
+
+#: models/trackmetadatamodel.cpp:462 models/trackmetadatamodel.cpp:523
+#, kde-format
+msgctxt "Year label for track metadata view"
+msgid "Year"
+msgstr "年份"
+
+#: models/trackmetadatamodel.cpp:464 models/trackmetadatamodel.cpp:526
+#, kde-format
+msgctxt "Channels label for track metadata view"
+msgid "Channels"
+msgstr "頻道"
+
+#: models/trackmetadatamodel.cpp:466 models/trackmetadatamodel.cpp:529
+#, kde-format
+msgctxt "Bit rate label for track metadata view"
+msgid "Bit Rate"
+msgstr "位元速率"
+
+#: models/trackmetadatamodel.cpp:468 models/trackmetadatamodel.cpp:532
+#, kde-format
+msgctxt "Sample Rate label for track metadata view"
+msgid "Sample Rate"
+msgstr "採樣率"
+
+#: models/trackmetadatamodel.cpp:470 models/trackmetadatamodel.cpp:544
+#, kde-format
+msgctxt "Lyrics label for track metadata view"
+msgid "Lyrics"
+msgstr "歌詞"
+
+#: models/trackmetadatamodel.cpp:472 models/trackmetadatamodel.cpp:490
+#, kde-format
+msgctxt "Duration label for track metadata view"
+msgid "Duration"
+msgstr "長度"
+
+#: models/trackmetadatamodel.cpp:535
+#, kde-format
+msgctxt "Last play date label for track metadata view"
+msgid "Last played"
+msgstr "上次播放時間"
+
+#: models/trackmetadatamodel.cpp:538
+#, fuzzy, kde-format
+#| msgctxt "Last play date label for track metadata view"
+#| msgid "Last played"
+msgctxt "First play date label for track metadata view"
+msgid "First played"
+msgstr "上次播放時間"
+
+#: models/trackmetadatamodel.cpp:541
+#, kde-format
+msgctxt "Play counter label for track metadata view"
+msgid "Play count"
+msgstr "播放次數"
+
+#: models/trackmetadatamodel.cpp:547
+#, kde-format
+msgctxt "Radio HTTP address for radio metadata view"
+msgid "Stream Http Address"
+msgstr "HTTP 串流位址"
+
+#: models/trackmetadatamodel.cpp:550
+#, kde-format
+msgctxt "Image address for radio metadata view"
+msgid "Image Address"
+msgstr "圖片位址"
+
+#: models/viewsmodel.cpp:109 qml/SettingsForm.qml:159 viewslistdata.cpp:56
+#: viewslistdata.cpp:558
+#, kde-format
+msgctxt "Title of the view of all albums"
+msgid "Albums"
+msgstr "專輯"
+
+#: models/viewsmodel.cpp:112 qml/SettingsForm.qml:162 viewslistdata.cpp:105
+#: viewslistdata.cpp:596
+#, kde-format
+msgctxt "Title of the view of all genres"
+msgid "Genres"
+msgstr "曲風"
+
+#: models/viewsmodel.cpp:115 qml/SettingsForm.qml:160 viewslistdata.cpp:71
+#: viewslistdata.cpp:577
+#, kde-format
+msgctxt "Title of the view of all artists"
+msgid "Artists"
+msgstr "藝人"
+
+#: powermanagementinterface.cpp:173 powermanagementinterface.cpp:223
+#, kde-format
+msgctxt "explanation for sleep inhibit during play of music"
+msgid "Playing Music"
+msgstr "正在播放音樂"
+
+#: qml/ApplicationMenu.qml:15 qml/MediaPlayerControl.qml:201
+#: qml/NativeTrayMenu.qml:14
+#, kde-format
+msgctxt "open application menu"
+msgid "Application Menu"
+msgstr "應用程式選單"
+
+#: qml/ApplicationMenu.qml:25 qml/NativeGlobalMenu.qml:29
+#: qml/NativeTrayMenu.qml:25
+#, kde-format
+msgctxt "Refresh Music Collection application menu entry"
+msgid "Refresh Music Collection"
+msgstr "重新整理音樂收藏"
+
+#: qml/ApplicationMenu.qml:34 qml/SettingsForm.qml:71 qml/SettingsForm.qml:76
+#, kde-format
+msgid "Color Scheme"
+msgstr ""
+
+#: qml/ContextView.qml:39
+#, kde-format
+msgctxt "Title of the context view related to the currently playing track"
+msgid "Now Playing"
+msgstr "現正播放"
+
+#: qml/ContextView.qml:71 qml/NavigationActionBar.qml:185
+#, kde-format
+msgctxt "open the sidebar"
+msgid "Open sidebar"
+msgstr ""
+
+#: qml/ContextView.qml:118
+#, kde-format
+msgctxt "One of the 'now playing' views"
+msgid "Metadata"
+msgstr ""
+
+#: qml/ContextView.qml:131
+#, fuzzy, kde-format
+#| msgctxt "Lyrics label for track metadata view"
+#| msgid "Lyrics"
+msgctxt "One of the 'now playing' views"
+msgid "Lyrics"
+msgstr "歌詞"
+
+#: qml/ContextView.qml:138 qml/mobile/MobileTrackPlayer.qml:369
+#: qml/NavigationActionBar.qml:148
+#, fuzzy, kde-format
+#| msgid "Show Playlist"
+msgctxt "show the playlist"
+msgid "Show Playlist"
+msgstr "顯示播放清單"
+
+#: qml/ContextView.qml:301
+#, kde-format
+msgid "No lyrics found"
+msgstr ""
+
+#: qml/ContextView.qml:314
+#, kde-format
+msgid "Nothing playing"
+msgstr "未播放任何東西"
+
+#: qml/ContextView.qml:345
+#, fuzzy, kde-format
+#| msgid "Choose a Folder"
+msgid "Show In Folder"
+msgstr "選取資料夾"
+
+#: qml/DurationSlider.qml:47
+#, kde-format
+msgctxt "This is used to preserve a fixed width for the duration text."
+msgid "00:00:00"
+msgstr "00:00:00"
+
+#: qml/ElisaConfigurationDialog.qml:21
+#, kde-format
+msgid "Configure"
+msgstr "設定"
+
+#: qml/ElisaConfigurationDialog.qml:43
+#, kde-format
+msgid "OK"
+msgstr "確定"
+
+#: qml/ElisaConfigurationDialog.qml:54 qml/MediaTrackMetadataView.qml:170
+#, kde-format
+msgid "Apply"
+msgstr "套用"
+
+#: qml/ElisaConfigurationDialog.qml:64
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: qml/ElisaConfigurationDialog.qml:81
+#, kde-format
+msgid "Warning"
+msgstr ""
+
+#: qml/GridBrowserDelegate.qml:203 qml/GridBrowserDelegate.qml:418
+#: qml/ListBrowserDelegate.qml:262 qml/ListBrowserDelegate.qml:364
+#: qml/mobile/MobilePlayListDelegate.qml:202 qml/PlayListEntry.qml:181
+#, fuzzy, kde-format
+#| msgid "Choose a Folder"
+msgctxt "Show the file for this song in the file manager"
+msgid "Show in folder"
+msgstr "選取資料夾"
+
+#: qml/GridBrowserDelegate.qml:228 qml/ListBrowserDelegate.qml:274
+#: qml/PlayListEntry.qml:194
+#, kde-format
+msgctxt "Show track metadata"
+msgid "View Details"
+msgstr "檢視詳細資訊"
+
+#: qml/GridBrowserDelegate.qml:259
+#, kde-format
+msgctxt "Clear play list and add whole container to play list"
+msgid "Play now, replacing current playlist"
+msgstr "立即播放，取代目前播放清單"
+
+#: qml/GridBrowserDelegate.qml:281
+#, kde-format
+msgctxt "Add whole container to play list"
+msgid "Add to playlist"
+msgstr "新增至播放清單"
+
+#: qml/GridBrowserDelegate.qml:369
+#, kde-format
+msgctxt "Options"
+msgid "Options"
+msgstr ""
+
+#: qml/GridBrowserDelegate.qml:408
+#, fuzzy, kde-format
+#| msgctxt "Clear play list and add whole container to play list"
+#| msgid "Play now, replacing current playlist"
+msgctxt "Clear play list and add whole container to play list"
+msgid "Play now, replacing current queue"
+msgstr "立即播放，取代目前播放清單"
+
+#: qml/GridBrowserDelegate.qml:427
+#, kde-format
+msgctxt "Add whole container to play list"
+msgid "Add to queue"
+msgstr ""
+
+#: qml/GridBrowserView.qml:210 qml/ListBrowserView.qml:180
+#, kde-format
+msgid "Nothing to display"
+msgstr "無可顯示"
+
+#: qml/ListBrowserDelegate.qml:167 qml/ListBrowserDelegate.qml:183
+#, fuzzy, kde-format
+#| msgctxt "%1: track number. %2: track title"
+#| msgid "%1 - %2"
+msgctxt "%1: track number. %2: track title."
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: qml/ListBrowserDelegate.qml:178
+#, fuzzy, kde-format
+#| msgctxt "%1: track number. %2: track title"
+#| msgid "%1 - %2"
+msgctxt "%1: track number. %2: track title. %3: artist name"
+msgid "%1 - %2 - %3"
+msgstr "%1 - %2"
+
+#: qml/ListBrowserDelegate.qml:190
+#, fuzzy, kde-format
+#| msgctxt "%1: track number. %2: track title"
+#| msgid "%1 - %2"
+msgctxt "%1: track title. %2: artist name"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: qml/ListBrowserDelegate.qml:284
+#, kde-format
+msgctxt "Enqueue current track"
+msgid "Enqueue"
+msgstr "加入清單"
+
+#: qml/ListBrowserDelegate.qml:295
+#, kde-format
+msgctxt "Clear play list and enqueue current track"
+msgid "Play Now and Replace Play List"
+msgstr "立即播放，並取代播放清單"
+
+#: qml/ListBrowserDelegate.qml:336
+#, fuzzy, kde-format
+#| msgctxt "Show filters in the navigation bar"
+#| msgid "Show Search Options"
+msgctxt "Song options"
+msgid "Song Options"
+msgstr "顯示搜尋選項"
+
+#: qml/ListBrowserDelegate.qml:373 qml/mobile/MobilePlayListDelegate.qml:218
+#, fuzzy, kde-format
+#| msgctxt "Show track metadata"
+#| msgid "View Details"
+msgctxt "Show track metadata"
+msgid "View details"
+msgstr "檢視詳細資訊"
+
+#: qml/ListBrowserDelegate.qml:382
+#, kde-format
+msgctxt "Enqueue current track"
+msgid "Add to queue"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:50
+#, fuzzy, kde-format
+#| msgctxt "Toggle between ascending and descending order"
+#| msgid "Toggle sort order"
+msgctxt "toggle the party mode"
+msgid "Toggle Party Mode"
+msgstr "切換排序順序"
+
+#: qml/MediaPlayerControl.qml:58
+#: qml/mobile/MobileMinimizedPlayerControl.qml:228
+#: qml/mobile/MobileTrackPlayer.qml:323
+#, kde-format
+msgctxt "skip backward in playlists"
+msgid "Skip Backward"
+msgstr "倒轉"
+
+#: qml/MediaPlayerControl.qml:66
+#: qml/mobile/MobileMinimizedPlayerControl.qml:244
+#: qml/mobile/MobileTrackPlayer.qml:338
+#, kde-format
+msgctxt "toggle play and pause for the audio player"
+msgid "Toggle Play and Pause"
+msgstr "切換播放暫停"
+
+#: qml/MediaPlayerControl.qml:74
+#: qml/mobile/MobileMinimizedPlayerControl.qml:260
+#: qml/mobile/MobileTrackPlayer.qml:353
+#, kde-format
+msgctxt "skip forward in playlists"
+msgid "Skip Forward"
+msgstr "快轉"
+
+#: qml/MediaPlayerControl.qml:98
+#, kde-format
+msgctxt "toggle mute mode for player"
+msgid "Toggle Mute"
+msgstr "切換靜音模式"
+
+#: qml/MediaPlayerControl.qml:124 qml/mobile/MobileTrackPlayer.qml:215
+#, kde-format
+msgctxt "toggle shuffle mode for playlist"
+msgid "Toggle Shuffle"
+msgstr "切換隨機播放"
+
+#: qml/MediaPlayerControl.qml:135 qml/mobile/MobileTrackPlayer.qml:230
+#, fuzzy, kde-format
+#| msgid "No remaining tracks"
+msgid "Current: Don't repeat tracks"
+msgstr "無剩餘音軌"
+
+#: qml/MediaPlayerControl.qml:136 qml/mobile/MobileTrackPlayer.qml:231
+#, fuzzy, kde-format
+#| msgctxt "Show currently played track inside playlist"
+#| msgid "Show Current Track"
+msgid "Current: Repeat current track"
+msgstr "顯示目前音軌"
+
+#: qml/MediaPlayerControl.qml:137 qml/mobile/MobileTrackPlayer.qml:232
+#, kde-format
+msgid "Current: Repeat all tracks in playlist"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:167 qml/mobile/MobileTrackPlayer.qml:261
+#: qml/NativeGlobalMenu.qml:133
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@info Title of the view of the playlist; keep this string as short as "
+#| "possible because horizontal space is quite scarce"
+#| msgid "Playlist"
+msgid "Playlist"
+msgstr "播放清單"
+
+#: qml/MediaPlayerControl.qml:171 qml/mobile/MobileTrackPlayer.qml:265
+#: qml/NativeGlobalMenu.qml:137
+#, fuzzy, kde-format
+#| msgid "On"
+msgid "One"
+msgstr "開啟"
+
+#: qml/MediaPlayerControl.qml:175 qml/mobile/MobileTrackPlayer.qml:269
+#: qml/NativeGlobalMenu.qml:141
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:191 qml/NativeGlobalMenu.qml:64
+#: qml/NativeTrayMenu.qml:51
+#, kde-format
+msgid "Show Playlist"
+msgstr "顯示播放清單"
+
+#: qml/MediaPlayListView.qml:57
+#, kde-format
+msgctxt ""
+"@info Title of the view of the playlist; keep this string as short as "
+"possible because horizontal space is quite scarce"
+msgid "Playlist"
+msgstr "播放清單"
+
+#: qml/MediaPlayListView.qml:75
+#, kde-format
+msgctxt "Undo"
+msgid "Undo"
+msgstr "復原"
+
+#: qml/MediaPlayListView.qml:82 qml/MediaPlayListView.qml:89
+#, kde-format
+msgctxt "Retry"
+msgid "Retry"
+msgstr "重試"
+
+#: qml/MediaPlayListView.qml:97
+#, kde-format
+msgctxt "Message when playlist load failed"
+msgid "Loading failed"
+msgstr "載入失敗"
+
+#: qml/MediaPlayListView.qml:109 qml/MediaPlayListView.qml:493
+#, kde-format
+msgctxt "Playlist cleared"
+msgid "Playlist cleared"
+msgstr "已清空播放清單"
+
+#: qml/MediaPlayListView.qml:145
+#, kde-format
+msgctxt "Show currently played track inside playlist"
+msgid "Show Current Track"
+msgstr "顯示目前音軌"
+
+#: qml/MediaPlayListView.qml:157
+#, kde-format
+msgctxt "Save a playlist file"
+msgid "Save Playlist..."
+msgstr "儲存播放清單…"
+
+#: qml/MediaPlayListView.qml:169
+#, kde-format
+msgctxt "Load a playlist file"
+msgid "Load Playlist..."
+msgstr "載入播放清單…"
+
+#: qml/MediaPlayListView.qml:179
+#, kde-format
+msgctxt "Remove all tracks from play list"
+msgid "Clear Playlist"
+msgstr "清空播放清單"
+
+#: qml/MediaPlayListView.qml:337
+#, fuzzy, kde-format
+#| msgctxt "Your playlist is empty"
+#| msgid "Your playlist is empty"
+msgid "Playlist is empty"
+msgstr "播放清單空白"
+
+#: qml/MediaPlayListView.qml:338
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Your playlist is empty.<nl/><nl/>Add some songs to get started. You can "
+#| "browse your music using the views on the left."
+msgid ""
+"Add some songs to get started. You can browse your music using the views on "
+"the left."
+msgstr ""
+"您的播放清單是空的。<nl/><nl/>加入一些歌曲來開始使用。你可以使用左側的檢視區"
+"來瀏覽音樂。"
+
+#: qml/MediaPlayListView.qml:464
+#, fuzzy, kde-kuit-format
+#| msgctxt "Your playlist is empty"
+#| msgid "Your playlist is empty"
+msgctxt "@info"
+msgid "Your playlist is empty."
+msgstr "播放清單空白"
+
+#: qml/MediaPlayListView.qml:497
+#, fuzzy, kde-format
+#| msgctxt "Undo"
+#| msgid "Undo"
+msgid "Undo"
+msgstr "復原"
+
+#: qml/MediaPlayListView.qml:514
+#, fuzzy, kde-format
+#| msgid "1 track"
+#| msgid_plural "%1 tracks"
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "%1 個音軌"
+
+#: qml/MediaPlayListView.qml:523
+#, fuzzy, kde-format
+#| msgid "1 track"
+#| msgid_plural "%1 tracks"
+msgid "Last track"
+msgstr "%1 個音軌"
+
+#: qml/MediaPlayListView.qml:523
+#, fuzzy, kde-format
+#| msgid "1 track remaining"
+#| msgid_plural "%1 tracks remaining"
+msgctxt "Number of remaining tracks in a playlist of songs"
+msgid "%1 remaining"
+msgid_plural "%1 remaining"
+msgstr[0] "剩餘 %1 個音軌"
+
+#: qml/MediaPlayListView.qml:534
+#, fuzzy, kde-format
+#| msgctxt "file type (mime type) for m3u playlist"
+#| msgid "Playlist (*.m3u)"
+msgctxt "file type (mime type) for m3u and m3u8 playlist file formats"
+msgid "Playlist (*.m3u*)"
+msgstr "播放清單 (*.m3u)"
+
+#: qml/MediaPlayListView.qml:540
+#, kde-format
+msgctxt "Message when saving a playlist failed"
+msgid "Saving failed"
+msgstr "儲存失敗"
+
+#: qml/MediaTrackMetadataForm.qml:37
+#, fuzzy, kde-format
+#| msgctxt "Form validation error message for track data"
+#| msgid "Data are not valid. %1"
+msgctxt "Form validation error message for track data"
+msgid "Data is not valid. %1"
+msgstr "日期無效。%1"
+
+#: qml/MediaTrackMetadataForm.qml:93
+#, fuzzy, kde-format
+#| msgid "Add new path"
+msgid "Add new tag:"
+msgstr "新增路徑"
+
+#: qml/MediaTrackMetadataForm.qml:112 qml/MediaTrackMetadataView.qml:160
+#, kde-format
+msgid "Modify"
+msgstr ""
+
+#: qml/MediaTrackMetadataForm.qml:129 qml/MediaTrackMetadataView.qml:139
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#: qml/MediaTrackMetadataView.qml:35
+#: qml/mobile/MobileMediaTrackMetadataView.qml:39
+#, kde-format
+msgctxt "Window title for track metadata"
+msgid "Create a Radio"
+msgstr "建立廣播"
+
+#: qml/MediaTrackMetadataView.qml:36
+#: qml/mobile/MobileMediaTrackMetadataView.qml:40
+#, kde-format
+msgctxt "Window title for track metadata"
+msgid "View Details"
+msgstr "檢視詳細資訊"
+
+#: qml/MediaTrackMetadataView.qml:184 qml/mobile/MobileContextMenuSheet.qml:28
+#: qml/mobile/MobileMediaTrackMetadataView.qml:56
+#: qml/mobile/MobileSettingsPage.qml:38
+#, kde-format
+msgid "Close"
+msgstr "關閉"
+
+#: qml/mobile/MobileMediaTrackMetadataView.qml:44
+#: qml/mobile/MobileSettingsPage.qml:30
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: qml/mobile/MobilePlayListDelegate.qml:177
+#, fuzzy, kde-format
+#| msgctxt "Title of the view of all tracks"
+#| msgid "Tracks"
+msgctxt "Track options"
+msgid "Track Options"
+msgstr "音軌"
+
+#: qml/mobile/MobilePlayListDelegate.qml:228
+#, kde-format
+msgctxt "Remove current track from play list"
+msgid "Remove from queue"
+msgstr ""
+
+#: qml/mobile/MobileSettingsPage.qml:26 qml/mobile/MobileSidebar.qml:38
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#: qml/mobile/MobileTrackPlayer.qml:49
+#, kde-format
+msgctxt "minimize player"
+msgid "Minimize Player"
+msgstr ""
+
+#: qml/mobile/MobileTrackPlayer.qml:203
+#, fuzzy, kde-format
+#| msgid "Choose a Folder"
+msgctxt "show track information"
+msgid "Show Info"
+msgstr "選取資料夾"
+
+#: qml/mobile/MobileVolumeButton.qml:27
+#, fuzzy, kde-format
+#| msgid "Increase Volume"
+msgctxt "change player volume"
+msgid "Change Volume"
+msgstr "遞增音量"
+
+#: qml/NativeGlobalMenu.qml:14
+#, kde-format
+msgctxt "menu category"
+msgid "File"
+msgstr "檔案"
+
+#: qml/NativeGlobalMenu.qml:17
+#, kde-format
+msgctxt "menu entry"
+msgid "Save Playlist..."
+msgstr "儲存播放清單……"
+
+#: qml/NativeGlobalMenu.qml:23
+#, kde-format
+msgctxt "menu entry"
+msgid "Open Playlist..."
+msgstr "開啟播放清單……"
+
+#: qml/NativeGlobalMenu.qml:49
+#, kde-format
+msgctxt "menu category"
+msgid "View"
+msgstr "檢視"
+
+#: qml/NativeGlobalMenu.qml:52
+#, fuzzy, kde-format
+#| msgctxt "Toggle between ascending and descending order"
+#| msgid "Toggle sort order"
+msgctxt "menu entry"
+msgid "Toggle Party Mode"
+msgstr "切換排序順序"
+
+#: qml/NativeGlobalMenu.qml:58
+#, kde-format
+msgctxt "menu entry"
+msgid "Leave Fullscreen"
+msgstr "離開全螢幕"
+
+#: qml/NativeGlobalMenu.qml:58
+#, kde-format
+msgctxt "menu entry"
+msgid "Enter Fullscreen"
+msgstr "進入全螢幕"
+
+#: qml/NativeGlobalMenu.qml:64
+#, kde-format
+msgid "Hide Playlist"
+msgstr "隱藏播放清單"
+
+#: qml/NativeGlobalMenu.qml:70
+#, kde-format
+msgctxt "menu category"
+msgid "Controls"
+msgstr "控制"
+
+#: qml/NativeGlobalMenu.qml:73 qml/NavigationActionBar.qml:124
+#, kde-format
+msgid "Play"
+msgstr "播放"
+
+#: qml/NativeGlobalMenu.qml:73
+#, kde-format
+msgid "Pause"
+msgstr "暫停"
+
+#: qml/NativeGlobalMenu.qml:80
+#, kde-format
+msgid "Stop"
+msgstr "停止"
+
+#: qml/NativeGlobalMenu.qml:89
+#, kde-format
+msgid "Increase Volume"
+msgstr "遞增音量"
+
+#: qml/NativeGlobalMenu.qml:94
+#, kde-format
+msgid "Decrease Volume"
+msgstr "遞減音量"
+
+#: qml/NativeGlobalMenu.qml:104
+#, kde-format
+msgid "Shuffle"
+msgstr "隨機播放"
+
+#: qml/NativeGlobalMenu.qml:111
+#, kde-format
+msgid "On"
+msgstr "開啟"
+
+#: qml/NativeGlobalMenu.qml:117
+#, kde-format
+msgid "Off"
+msgstr "關閉"
+
+#: qml/NativeGlobalMenu.qml:126
+#, kde-format
+msgid "Repeat"
+msgstr "循環播放"
+
+#: qml/NativeGlobalMenu.qml:147
+#, kde-format
+msgctxt "menu category"
+msgid "Help"
+msgstr "說明"
+
+#: qml/NavigationActionBar.qml:78
+#, kde-format
+msgctxt "Sort By Menu Title with no sort selected"
+msgid "Sort: %1"
+msgstr ""
+
+#: qml/NavigationActionBar.qml:80
+#, kde-format
+msgctxt "Sort By Menu Title with no sort selected"
+msgid "Sort"
+msgstr ""
+
+#: qml/NavigationActionBar.qml:100
+#, kde-format
+msgctxt "Create a new radio"
+msgid "Create a radio"
+msgstr "建立廣播"
+
+#: qml/NavigationActionBar.qml:112
+#, kde-format
+msgctxt "Add current list to playlist"
+msgid "Enqueue"
+msgstr "加入清單"
+
+#: qml/NavigationActionBar.qml:136
+#, kde-format
+msgctxt "Button to navigate to the artist of the album"
+msgid "Display Artist"
+msgstr "顯示藝人"
+
+#: qml/NavigationActionBar.qml:193
+#, kde-format
+msgctxt "navigate back in the views stack"
+msgid "Back"
+msgstr "返回"
+
+#: qml/NavigationActionBar.qml:275
+#, kde-format
+msgctxt "Show filters in the navigation bar"
+msgid "Show Search Options"
+msgstr "顯示搜尋選項"
+
+#: qml/NavigationActionBar.qml:275
+#, kde-format
+msgctxt "Hide filters in the navigation bar"
+msgid "Hide Search Options"
+msgstr "隱藏搜尋選項"
+
+#: qml/NavigationActionBar.qml:366
+#, kde-format
+msgid "Search for album name, artist, etc."
+msgstr "搜尋專輯名稱、藝人等等。"
+
+#: qml/NavigationActionBar.qml:375
+#, kde-format
+msgid "Filter by rating: "
+msgstr "依評分過濾："
+
+#: qml/PlayListEntry.qml:215
+#, kde-format
+msgctxt "Pause current track from play list"
+msgid "Pause"
+msgstr "暫停"
+
+#: qml/PlayListEntry.qml:215
+#, kde-format
+msgctxt "Play this track from play list"
+msgid "Play"
+msgstr "播放"
+
+#: qml/PlayListEntry.qml:231
+#, kde-format
+msgctxt "Remove current track from play list"
+msgid "Remove"
+msgstr "移除"
+
+#: qml/SettingsForm.qml:29
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General:"
+msgstr "一般"
+
+#: qml/SettingsForm.qml:31
+#, kde-format
+msgid "Show background on Now Playing page"
+msgstr ""
+
+#: qml/SettingsForm.qml:42
+#, kde-format
+msgid "Show progress on Task Manager entries"
+msgstr "在工作管理員項目中顯示播放進度"
+
+#: qml/SettingsForm.qml:51
+#, kde-format
+msgid "Keep running in System Tray when main window is closed"
+msgstr "主視窗關閉時，仍繼續在系統匣執行"
+
+#: qml/SettingsForm.qml:60
+#, kde-format
+msgid "Start playing on startup"
+msgstr "啟動時就開始播放"
+
+#: qml/SettingsForm.qml:97
+#, fuzzy, kde-format
+#| msgctxt "Refresh Music Collection application menu entry"
+#| msgid "Refresh Music Collection"
+msgid "Refresh Music Collection"
+msgstr "重新整理音樂收藏"
+
+#: qml/SettingsForm.qml:115
+#, fuzzy, kde-format
+#| msgid "Embed a category in the views navigation list:"
+msgid "Embed category in sidebar:"
+msgstr "在檢視導航清單中嵌入一個分類："
+
+#: qml/SettingsForm.qml:117
+#, fuzzy, kde-format
+#| msgid "Nothing playing"
+msgctxt "Configure dialog, embed no category in views navigation list"
+msgid "Nothing"
+msgstr "未播放任何東西"
+
+#: qml/SettingsForm.qml:118
+#, fuzzy, kde-format
+#| msgctxt "Title of the view of all albums"
+#| msgid "Albums"
+msgctxt "Configure dialog, embed all albums in views navigation list"
+msgid "Albums"
+msgstr "專輯"
+
+#: qml/SettingsForm.qml:119
+#, fuzzy, kde-format
+#| msgctxt "Title of the view of all artists"
+#| msgid "Artists"
+msgctxt "Configure dialog, embed all artists in views navigation list"
+msgid "Artists"
+msgstr "藝人"
+
+#: qml/SettingsForm.qml:120
+#, fuzzy, kde-format
+#| msgctxt "Title of the view of all genres"
+#| msgid "Genres"
+msgctxt "Configure dialog, embed all genres in views navigation list"
+msgid "Genres"
+msgstr "曲風"
+
+#: qml/SettingsForm.qml:154
+#, fuzzy, kde-format
+#| msgid "Start playing on startup"
+msgid "Initial view on startup:"
+msgstr "啟動時就開始播放"
+
+#: qml/SettingsForm.qml:156 viewslistdata.cpp:23
+#, kde-format
+msgctxt "Title of the view of the playlist"
+msgid "Now Playing"
+msgstr "現正播放"
+
+#: qml/SettingsForm.qml:157 viewslistdata.cpp:26
+#, kde-format
+msgctxt "Title of the view of recently played tracks"
+msgid "Recently Played"
+msgstr "最近播放"
+
+#: qml/SettingsForm.qml:158 viewslistdata.cpp:41
+#, kde-format
+msgctxt "Title of the view of frequently played tracks"
+msgid "Frequently Played"
+msgstr "最常播放"
+
+#: qml/SettingsForm.qml:161 viewslistdata.cpp:86
+#, kde-format
+msgctxt "Title of the view of all tracks"
+msgid "Tracks"
+msgstr "音軌"
+
+#: qml/SettingsForm.qml:163 viewslistdata.cpp:120
+#, kde-format
+msgctxt "Title of the file browser view"
+msgid "Files"
+msgstr "檔案"
+
+#: qml/SettingsForm.qml:164 viewslistdata.cpp:132
+#, kde-format
+msgctxt "Title of the file radios browser view"
+msgid "Radios"
+msgstr "廣播"
+
+#: qml/SettingsForm.qml:189
+#, kde-format
+msgid "Music indexing:"
+msgstr ""
+
+#: qml/SettingsForm.qml:196
+#, kde-format
+msgctxt "Configure dialog, indexing type"
+msgid "Use fast native indexer"
+msgstr ""
+
+#: qml/SettingsForm.qml:197
+#, fuzzy, kde-format
+#| msgid "Force filesystem indexing"
+msgctxt "Configure dialog, indexing type"
+msgid "Scan the filesystem directly"
+msgstr "強制索引檔案系統"
+
+#: qml/SettingsForm.qml:212
+#, fuzzy, kde-kuit-format
+#| msgid ""
+#| "This is much slower than usage of fast search!\n"
+#| "Please activate it only if Elisa cannot find your music and searching for "
+#| "the file also does not work.\n"
+#| "Please report this as a bug."
+msgid ""
+"This is slower than the fast indexer. Please activate it only if Elisa "
+"cannot find your music and searching for one of the missing music files "
+"using your file manager also does not work. Please report this as a bug."
+msgstr ""
+"這會比使用快速搜尋還慢很多！\n"
+"請只在 Elisa 找不到你音樂，而且搜尋檔案也找不出東西時啟用。\n"
+"請回報此為臭蟲。"
+
+#: qml/SettingsForm.qml:216
+#, kde-format
+msgid "Report Bug"
+msgstr ""
+
+#: qml/SettingsForm.qml:232
+#, kde-format
+msgctxt "The configured folders where the user's music collection can be found"
+msgid "Music folders:"
+msgstr ""
+
+#: qml/SettingsForm.qml:265
+#, kde-format
+msgid "Stop looking for music here"
+msgstr ""
+
+#: qml/SettingsForm.qml:276
+#, fuzzy, kde-format
+#| msgid "Add new path"
+msgid "Add New Location"
+msgstr "新增路徑"
+
+#: qml/SettingsForm.qml:286
+#, kde-format
+msgid "Choose a Folder"
+msgstr "選取資料夾"
+
+#: qml/SortMenu.qml:20
+#, kde-format
+msgctxt "Sort By Menu"
+msgid "Sort By"
+msgstr ""
+
+#: qml/TrackImportNotification.qml:70 qml/TrackImportNotification.qml:85
+#, kde-format
+msgctxt "number of imported tracks"
+msgid "Imported one track"
+msgid_plural "Imported %1 tracks"
+msgstr[0] "已匯入 %1 個音軌"
+
+#: qml/TrackImportNotification.qml:73
+#, kde-format
+msgctxt "message to show when Elisa is scanning music files"
+msgid "Scanning music"
+msgstr "正在掃描音樂"
+
+#: qml/TracksDiscHeader.qml:20
+#, kde-format
+msgctxt "disc header text when showing an album"
+msgid "Disc %1"
+msgstr "光碟 %1"
+
+#: viewmanager.cpp:42 viewmanager.cpp:72 viewslistdata.cpp:64
+#: viewslistdata.cpp:96 viewslistdata.cpp:566
+#, fuzzy, kde-format
+#| msgctxt "Track title for track metadata view"
+#| msgid "Title"
+msgid "Title"
+msgstr "標題"
+
+#: viewmanager.cpp:44 viewmanager.cpp:59 viewmanager.cpp:74 viewmanager.cpp:89
+#: viewslistdata.cpp:66 viewslistdata.cpp:81 viewslistdata.cpp:99
+#: viewslistdata.cpp:100 viewslistdata.cpp:115 viewslistdata.cpp:142
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "A-Z"
+msgstr ""
+
+#: viewmanager.cpp:44 viewmanager.cpp:59 viewmanager.cpp:74 viewmanager.cpp:89
+#: viewslistdata.cpp:66 viewslistdata.cpp:81 viewslistdata.cpp:99
+#: viewslistdata.cpp:100 viewslistdata.cpp:115 viewslistdata.cpp:142
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "Z-A"
+msgstr ""
+
+#: viewmanager.cpp:57 viewmanager.cpp:87 viewslistdata.cpp:79
+#: viewslistdata.cpp:140 viewslistdata.cpp:585
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#: viewmanager.cpp:72 viewslistdata.cpp:64 viewslistdata.cpp:96
+#: viewslistdata.cpp:113 viewslistdata.cpp:566 viewslistdata.cpp:604
+#, fuzzy, kde-format
+#| msgctxt "Genre label for track metadata view"
+#| msgid "Genre"
+msgid "Genre"
+msgstr "曲風"
+
+#: viewmanager.cpp:72 viewslistdata.cpp:64 viewslistdata.cpp:97
+#: viewslistdata.cpp:566
+#, fuzzy, kde-format
+#| msgctxt "Year label for track metadata view"
+#| msgid "Year"
+msgid "Year"
+msgstr "年份"
+
+#: viewmanager.cpp:74 viewslistdata.cpp:66 viewslistdata.cpp:100
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "Oldest First"
+msgstr ""
+
+#: viewmanager.cpp:74 viewslistdata.cpp:66 viewslistdata.cpp:100
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "Newest First"
+msgstr ""
+
+#: viewslistdata.cpp:34
+#, fuzzy, kde-format
+#| msgctxt "Last play date label for track metadata view"
+#| msgid "Last played"
+msgid "Last Played Date"
+msgstr "上次播放時間"
+
+#: viewslistdata.cpp:36
+#, fuzzy, kde-format
+#| msgctxt "Title of the view of recently played tracks"
+#| msgid "Recently Played"
+msgid "Least Recently Played First"
+msgstr "最近播放"
+
+#: viewslistdata.cpp:36
+#, fuzzy, kde-format
+#| msgctxt "Title of the view of recently played tracks"
+#| msgid "Recently Played"
+msgid "Most Recently Played First"
+msgstr "最近播放"
+
+#: viewslistdata.cpp:49
+#, kde-format
+msgid "Play Frequency"
+msgstr ""
+
+#: viewslistdata.cpp:51
+#, fuzzy, kde-format
+#| msgctxt "Title of the view of frequently played tracks"
+#| msgid "Frequently Played"
+msgid "Least Frequently Played First"
+msgstr "最常播放"
+
+#: viewslistdata.cpp:51
+#, fuzzy, kde-format
+#| msgctxt "Title of the view of frequently played tracks"
+#| msgid "Frequently Played"
+msgid "Most Frequently Played First"
+msgstr "最常播放"
+
+#: viewslistdata.cpp:64 viewslistdata.cpp:96 viewslistdata.cpp:566
+#, fuzzy, kde-format
+#| msgctxt "Track artist for track metadata view"
+#| msgid "Artist"
+msgid "Artist"
+msgstr "藝人"
+
+#: viewslistdata.cpp:96
+#, fuzzy, kde-format
+#| msgctxt "Album name for track metadata view"
+#| msgid "Album"
+msgid "Album"
+msgstr "專輯"
+
+#: viewslistdata.cpp:97
+#, fuzzy, kde-format
+#| msgctxt "Duration label for track metadata view"
+#| msgid "Duration"
+msgid "Duration"
+msgstr "長度"
+
+#: viewslistdata.cpp:97
+#, fuzzy, kde-format
+#| msgctxt "Composer name for track metadata view"
+#| msgid "Composer"
+msgid "Composer"
+msgstr "作曲者"
+
+#: viewslistdata.cpp:97
+#, fuzzy, kde-format
+#| msgctxt "Lyricist label for track metadata view"
+#| msgid "Lyricist"
+msgid "Lyricist"
+msgstr "作詞者"
+
+#: viewslistdata.cpp:100
+#, kde-format
+msgid "Shortest First"
+msgstr ""
+
+#: viewslistdata.cpp:100
+#, kde-format
+msgid "Longest First"
+msgstr ""
+
+#~ msgctxt "toggle between maximized and minimized ivre"
+#~ msgid "Toggle Maximize"
+#~ msgstr "切換最大化"
+
+#~ msgctxt "menu entry"
+#~ msgid "Collapse Player"
+#~ msgstr "折疊播放器"
+
+#~ msgctxt "menu entry"
+#~ msgid "Expand Player"
+#~ msgstr "展開播放器"
+
+#~ msgctxt "message of passive notification when playlist load failed"
+#~ msgid "Load of playlist failed"
+#~ msgstr "載入播放清單失敗"
+
+#~ msgctxt "Label for a piece of metadata, e.g. 'Album Artist:'"
+#~ msgid "%1:"
+#~ msgstr "%1："
+
+#~ msgctxt "%1: track number. %2: track title"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgid "Play now, replacing contents of Playlist"
+#~ msgstr "立刻播放，取代播放清單的內容"
+
+#~ msgid "Music Search Configuration"
+#~ msgstr "音樂搜尋設定"
+
+#~ msgctxt "Configure dialog, embed no category in views navigation list"
+#~ msgid "No embedded data"
+#~ msgstr "無嵌入的資料"
+
+#~ msgctxt "Configure dialog, embed all albums in views navigation list"
+#~ msgid "Embed Albums"
+#~ msgstr "嵌入專輯"
+
+#~ msgctxt "Configure dialog, embed all artists in views navigation list"
+#~ msgid "Embed Artists"
+#~ msgstr "嵌入藝人"
+
+#~ msgctxt "Configure dialog, embed all genres in views navigation list"
+#~ msgid "Embed Genres"
+#~ msgstr "嵌入曲風"
+
+#~ msgctxt "toggle repeat mode for playlist"
+#~ msgid "Toggle Repeat"
+#~ msgstr "切換循環播放"
+
+#~ msgctxt "%1: track number. %2: track title. %3: artist name"
+#~ msgid "<b>%1 - %2</b> - <i>%3</i>"
+#~ msgstr "<b>%1 - %2</b> - <i>%3</i>"
+
+#~ msgctxt "%1: track number. %2: track title."
+#~ msgid "<b>%1 - %2</b>"
+#~ msgstr "<b>%1 - %2</b>"
+
+#~ msgctxt "%1: track title. %2: artist name"
+#~ msgid "<b>%1</b> - <i>%2</i>"
+#~ msgstr "<b>%1</b> - <i>%2</i>"
+
+#~ msgctxt "%1: track title"
+#~ msgid "<b>%1</b>"
+#~ msgstr "<b>%1</b>"
+
+#~ msgctxt "display of artist and album in context view"
+#~ msgid "<i>by</i> <b>%1</b> <i>from</i> <b>%2</b>"
+#~ msgstr "<i>作者：</i><b>%1</b>；<i>來自：</i><b>%2</b>"
+
+#~ msgctxt "display of album in context view"
+#~ msgid "<i>from</i> <b>%1</b>"
+#~ msgstr "<i>來自：</i><b>%1</b>"
+
+#~ msgctxt "display of artist in context view"
+#~ msgid "<i>by</i> <b>%1</b>"
+#~ msgstr "<i>作者：</i><b>%1</b>"
+
+#~ msgctxt "Play now current track from play list"
+#~ msgid "Play Now"
+#~ msgstr "立刻播放"

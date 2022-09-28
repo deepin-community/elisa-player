@@ -1,0 +1,1379 @@
+# Lithuanian translations for elisa package.
+# Copyright (C) 2019 This file is copyright:
+# This file is distributed under the same license as the elisa package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: elisa\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-16 01:42+0000\n"
+"PO-Revision-Date: 2021-02-04 17:25+0200\n"
+"Last-Translator: Moo\n"
+"Language-Team: lt\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Moo"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "<>"
+
+#: databaseinterface.cpp:7087 databaseinterface.cpp:8129
+#: databaseinterface.cpp:8213
+#, kde-format
+msgid "Various Artists"
+msgstr "Įvairūs atlikėjai"
+
+#: databaseinterface.cpp:7151
+#, kde-format
+msgid "Radios"
+msgstr "Radijai"
+
+#: elisaapplication.cpp:176
+#, kde-format
+msgid "Toggle Playlist"
+msgstr "Perjungti grojaraštį"
+
+#: elisaapplication.cpp:181
+#, kde-format
+msgid "Seek forward 10 seconds"
+msgstr "Persukti 10 sekundžių pirmyn"
+
+#: elisaapplication.cpp:187
+#, kde-format
+msgid "Scrub backwards 10 seconds"
+msgstr "Persukti 10 sekundžių atgal"
+
+#: elisaapplication.cpp:193
+#, kde-format
+msgid "Go to next track"
+msgstr "Pereiti prie kito takelio"
+
+#: elisaapplication.cpp:199
+#, kde-format
+msgid "Go to previous track"
+msgstr "Pereiti prie ankstesnio takelio"
+
+#: elisaapplication.cpp:205
+#, kde-format
+msgid "Play/pause"
+msgstr "Atkurti/pristabdyti"
+
+#: elisaapplication.cpp:216
+#, fuzzy, kde-format
+#| msgctxt "Toggle between ascending and descending order"
+#| msgid "Toggle sort order"
+msgid "Toggle Party Mode"
+msgstr "Perjungti rikiavimo tvarką"
+
+#: main.cpp:106 qml/ElisaMainWindow.qml:56 qml/mobile/MobileSidebar.qml:20
+#, kde-format
+msgid "Elisa"
+msgstr "Elisa"
+
+#: main.cpp:108
+#, kde-format
+msgid "A Simple Music Player made with love by the KDE community"
+msgstr "Paprastas muzikos grotuvas, su meile sukurtas KDE bendruomenės"
+
+#: main.cpp:110
+#, kde-format
+msgid "(c) 2015-2020, Elisa contributors"
+msgstr "(c) 2015-2020, Elisa talkininkai"
+
+#: main.cpp:112
+#, kde-format
+msgid "Creator"
+msgstr "Kūrėjas"
+
+#: main.cpp:113
+#, kde-format
+msgid "Author"
+msgstr "Autorius"
+
+#: main.cpp:115
+#, kde-format
+msgid "Concept and design work"
+msgstr "Koncepcijos ir dizaino darbas"
+
+#: main.cpp:116
+#, kde-format
+msgid "Localization support"
+msgstr "Lokalizavimo palaikymas"
+
+#: main.cpp:117
+#, kde-format
+msgid "Right to left support in interface"
+msgstr "Palaikymas sąsajoje teksto iš dešinės į kairę"
+
+#: main.cpp:118
+#, kde-format
+msgid "Various improvements to the interface"
+msgstr "Įvairūs sąsajos patobulinimai"
+
+#: main.cpp:119
+#, kde-format
+msgid "Support for online radios"
+msgstr "Internetinių radijų palaikymas"
+
+#: models/editabletrackmetadatamodel.cpp:348
+#, kde-format
+msgctxt "Error message when track URL is invalid"
+msgid "Invalid URL."
+msgstr "Neteisingas URL."
+
+#: models/editabletrackmetadatamodel.cpp:358
+#, kde-format
+msgctxt "Error message when track title is empty"
+msgid "Empty title."
+msgstr "Tuščias pavadinimas."
+
+#: models/trackmetadatamodel.cpp:440 models/trackmetadatamodel.cpp:487
+#, kde-format
+msgctxt "Track title for track metadata view"
+msgid "Title"
+msgstr "Pavadinimas"
+
+#: models/trackmetadatamodel.cpp:442 models/trackmetadatamodel.cpp:493
+#, kde-format
+msgctxt "Track artist for track metadata view"
+msgid "Artist"
+msgstr "Atlikėjas"
+
+#: models/trackmetadatamodel.cpp:444 models/trackmetadatamodel.cpp:496
+#, kde-format
+msgctxt "Album name for track metadata view"
+msgid "Album"
+msgstr "Albumas"
+
+#: models/trackmetadatamodel.cpp:446 models/trackmetadatamodel.cpp:499
+#, kde-format
+msgctxt "Album artist for track metadata view"
+msgid "Album Artist"
+msgstr "Albumo atlikėjas"
+
+#: models/trackmetadatamodel.cpp:448 models/trackmetadatamodel.cpp:502
+#, kde-format
+msgctxt "Track number for track metadata view"
+msgid "Track Number"
+msgstr "Takelio numeris"
+
+#: models/trackmetadatamodel.cpp:450 models/trackmetadatamodel.cpp:505
+#, kde-format
+msgctxt "Disc number for track metadata view"
+msgid "Disc Number"
+msgstr "Disko numeris"
+
+#: models/trackmetadatamodel.cpp:452 models/trackmetadatamodel.cpp:508
+#, kde-format
+msgctxt "Rating label for information panel"
+msgid "Rating"
+msgstr "Įvertinimas"
+
+#: models/trackmetadatamodel.cpp:454 models/trackmetadatamodel.cpp:511
+#, kde-format
+msgctxt "Genre label for track metadata view"
+msgid "Genre"
+msgstr "Žanras"
+
+#: models/trackmetadatamodel.cpp:456 models/trackmetadatamodel.cpp:514
+#, kde-format
+msgctxt "Lyricist label for track metadata view"
+msgid "Lyricist"
+msgstr "Dainos žodžių autorius"
+
+#: models/trackmetadatamodel.cpp:458 models/trackmetadatamodel.cpp:517
+#, kde-format
+msgctxt "Composer name for track metadata view"
+msgid "Composer"
+msgstr "Kompozitorius"
+
+#: models/trackmetadatamodel.cpp:460 models/trackmetadatamodel.cpp:520
+#, kde-format
+msgctxt "Comment label for track metadata view"
+msgid "Comment"
+msgstr "Komentaras"
+
+#: models/trackmetadatamodel.cpp:462 models/trackmetadatamodel.cpp:523
+#, kde-format
+msgctxt "Year label for track metadata view"
+msgid "Year"
+msgstr "Metai"
+
+#: models/trackmetadatamodel.cpp:464 models/trackmetadatamodel.cpp:526
+#, kde-format
+msgctxt "Channels label for track metadata view"
+msgid "Channels"
+msgstr "Kanalai"
+
+#: models/trackmetadatamodel.cpp:466 models/trackmetadatamodel.cpp:529
+#, kde-format
+msgctxt "Bit rate label for track metadata view"
+msgid "Bit Rate"
+msgstr "Pralaidumas"
+
+#: models/trackmetadatamodel.cpp:468 models/trackmetadatamodel.cpp:532
+#, kde-format
+msgctxt "Sample Rate label for track metadata view"
+msgid "Sample Rate"
+msgstr "Skaitmeninimo dažnis"
+
+#: models/trackmetadatamodel.cpp:470 models/trackmetadatamodel.cpp:544
+#, kde-format
+msgctxt "Lyrics label for track metadata view"
+msgid "Lyrics"
+msgstr "Dainos žodžiai"
+
+#: models/trackmetadatamodel.cpp:472 models/trackmetadatamodel.cpp:490
+#, kde-format
+msgctxt "Duration label for track metadata view"
+msgid "Duration"
+msgstr "Trukmė"
+
+#: models/trackmetadatamodel.cpp:535
+#, kde-format
+msgctxt "Last play date label for track metadata view"
+msgid "Last played"
+msgstr "Paskutinį kartą atkurta"
+
+#: models/trackmetadatamodel.cpp:538
+#, kde-format
+msgctxt "First play date label for track metadata view"
+msgid "First played"
+msgstr "Pirmą kartą atkurta"
+
+#: models/trackmetadatamodel.cpp:541
+#, kde-format
+msgctxt "Play counter label for track metadata view"
+msgid "Play count"
+msgstr "Atkūrimų skaičius"
+
+#: models/trackmetadatamodel.cpp:547
+#, kde-format
+msgctxt "Radio HTTP address for radio metadata view"
+msgid "Stream Http Address"
+msgstr "Srauto HTTP adresas"
+
+#: models/trackmetadatamodel.cpp:550
+#, kde-format
+msgctxt "Image address for radio metadata view"
+msgid "Image Address"
+msgstr "Paveikslo adresas"
+
+#: models/viewsmodel.cpp:109 qml/SettingsForm.qml:159 viewslistdata.cpp:56
+#: viewslistdata.cpp:558
+#, kde-format
+msgctxt "Title of the view of all albums"
+msgid "Albums"
+msgstr "Albumai"
+
+#: models/viewsmodel.cpp:112 qml/SettingsForm.qml:162 viewslistdata.cpp:105
+#: viewslistdata.cpp:596
+#, kde-format
+msgctxt "Title of the view of all genres"
+msgid "Genres"
+msgstr "Žanrai"
+
+#: models/viewsmodel.cpp:115 qml/SettingsForm.qml:160 viewslistdata.cpp:71
+#: viewslistdata.cpp:577
+#, kde-format
+msgctxt "Title of the view of all artists"
+msgid "Artists"
+msgstr "Atlikėjai"
+
+#: powermanagementinterface.cpp:173 powermanagementinterface.cpp:223
+#, kde-format
+msgctxt "explanation for sleep inhibit during play of music"
+msgid "Playing Music"
+msgstr "Atkuriama muzika"
+
+#: qml/ApplicationMenu.qml:15 qml/MediaPlayerControl.qml:201
+#: qml/NativeTrayMenu.qml:14
+#, kde-format
+msgctxt "open application menu"
+msgid "Application Menu"
+msgstr "Programos meniu"
+
+#: qml/ApplicationMenu.qml:25 qml/NativeGlobalMenu.qml:29
+#: qml/NativeTrayMenu.qml:25
+#, kde-format
+msgctxt "Refresh Music Collection application menu entry"
+msgid "Refresh Music Collection"
+msgstr "Įkelti muzikos kolekciją iš naujo"
+
+#: qml/ApplicationMenu.qml:34 qml/SettingsForm.qml:71 qml/SettingsForm.qml:76
+#, kde-format
+msgid "Color Scheme"
+msgstr "Spalvų rinkinys"
+
+#: qml/ContextView.qml:39
+#, kde-format
+msgctxt "Title of the context view related to the currently playing track"
+msgid "Now Playing"
+msgstr "Dabar atkuriama"
+
+#: qml/ContextView.qml:71 qml/NavigationActionBar.qml:185
+#, kde-format
+msgctxt "open the sidebar"
+msgid "Open sidebar"
+msgstr ""
+
+#: qml/ContextView.qml:118
+#, kde-format
+msgctxt "One of the 'now playing' views"
+msgid "Metadata"
+msgstr ""
+
+#: qml/ContextView.qml:131
+#, fuzzy, kde-format
+#| msgctxt "Lyrics label for track metadata view"
+#| msgid "Lyrics"
+msgctxt "One of the 'now playing' views"
+msgid "Lyrics"
+msgstr "Dainos žodžiai"
+
+#: qml/ContextView.qml:138 qml/mobile/MobileTrackPlayer.qml:369
+#: qml/NavigationActionBar.qml:148
+#, fuzzy, kde-format
+#| msgid "Show Playlist"
+msgctxt "show the playlist"
+msgid "Show Playlist"
+msgstr "Rodyti grojaraštį"
+
+#: qml/ContextView.qml:301
+#, fuzzy, kde-format
+#| msgctxt "e.g. 'no artists found' or 'no albums found'"
+#| msgid "No %1 found"
+msgid "No lyrics found"
+msgstr "%1 nerasta"
+
+#: qml/ContextView.qml:314
+#, kde-format
+msgid "Nothing playing"
+msgstr "Nieko neatkuriama"
+
+#: qml/ContextView.qml:345
+#, kde-format
+msgid "Show In Folder"
+msgstr "Rodyti aplanke"
+
+#: qml/DurationSlider.qml:47
+#, kde-format
+msgctxt "This is used to preserve a fixed width for the duration text."
+msgid "00:00:00"
+msgstr "00:00:00"
+
+#: qml/ElisaConfigurationDialog.qml:21
+#, kde-format
+msgid "Configure"
+msgstr "Konfigūruoti"
+
+#: qml/ElisaConfigurationDialog.qml:43
+#, kde-format
+msgid "OK"
+msgstr "Gerai"
+
+#: qml/ElisaConfigurationDialog.qml:54 qml/MediaTrackMetadataView.qml:170
+#, kde-format
+msgid "Apply"
+msgstr "Taikyti"
+
+#: qml/ElisaConfigurationDialog.qml:64
+#, kde-format
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: qml/ElisaConfigurationDialog.qml:81
+#, kde-format
+msgid "Warning"
+msgstr "Įspėjimas"
+
+#: qml/GridBrowserDelegate.qml:203 qml/GridBrowserDelegate.qml:418
+#: qml/ListBrowserDelegate.qml:262 qml/ListBrowserDelegate.qml:364
+#: qml/mobile/MobilePlayListDelegate.qml:202 qml/PlayListEntry.qml:181
+#, kde-format
+msgctxt "Show the file for this song in the file manager"
+msgid "Show in folder"
+msgstr "Rodyti aplanke"
+
+#: qml/GridBrowserDelegate.qml:228 qml/ListBrowserDelegate.qml:274
+#: qml/PlayListEntry.qml:194
+#, kde-format
+msgctxt "Show track metadata"
+msgid "View Details"
+msgstr "Rodyti išsamiau"
+
+#: qml/GridBrowserDelegate.qml:259
+#, kde-format
+msgctxt "Clear play list and add whole container to play list"
+msgid "Play now, replacing current playlist"
+msgstr "Atkurti dabar, pakeičiant esamą grojaraštį"
+
+#: qml/GridBrowserDelegate.qml:281
+#, kde-format
+msgctxt "Add whole container to play list"
+msgid "Add to playlist"
+msgstr "Pridėti į grojaraštį"
+
+#: qml/GridBrowserDelegate.qml:369
+#, kde-format
+msgctxt "Options"
+msgid "Options"
+msgstr ""
+
+#: qml/GridBrowserDelegate.qml:408
+#, fuzzy, kde-format
+#| msgctxt "Clear play list and add whole container to play list"
+#| msgid "Play now, replacing current playlist"
+msgctxt "Clear play list and add whole container to play list"
+msgid "Play now, replacing current queue"
+msgstr "Atkurti dabar, pakeičiant esamą grojaraštį"
+
+#: qml/GridBrowserDelegate.qml:427
+#, kde-format
+msgctxt "Add whole container to play list"
+msgid "Add to queue"
+msgstr ""
+
+#: qml/GridBrowserView.qml:210 qml/ListBrowserView.qml:180
+#, kde-format
+msgid "Nothing to display"
+msgstr "Nėra ką rodyti"
+
+#: qml/ListBrowserDelegate.qml:167 qml/ListBrowserDelegate.qml:183
+#, kde-format
+msgctxt "%1: track number. %2: track title."
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: qml/ListBrowserDelegate.qml:178
+#, fuzzy, kde-format
+#| msgctxt "%1: track number. %2: track title. %3: artist name"
+#| msgid "%1 - %2 - %3"
+msgctxt "%1: track number. %2: track title. %3: artist name"
+msgid "%1 - %2 - %3"
+msgstr "%1 - %2 - %3"
+
+#: qml/ListBrowserDelegate.qml:190
+#, kde-format
+msgctxt "%1: track title. %2: artist name"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: qml/ListBrowserDelegate.qml:284
+#, kde-format
+msgctxt "Enqueue current track"
+msgid "Enqueue"
+msgstr "Statyti į eilę"
+
+#: qml/ListBrowserDelegate.qml:295
+#, kde-format
+msgctxt "Clear play list and enqueue current track"
+msgid "Play Now and Replace Play List"
+msgstr "Atkurti dabar ir pakeisti atkūrimo sąrašą"
+
+#: qml/ListBrowserDelegate.qml:336
+#, fuzzy, kde-format
+#| msgctxt "Show filters in the navigation bar"
+#| msgid "Show Search Options"
+msgctxt "Song options"
+msgid "Song Options"
+msgstr "Rodyti paieškos parinktis"
+
+#: qml/ListBrowserDelegate.qml:373 qml/mobile/MobilePlayListDelegate.qml:218
+#, fuzzy, kde-format
+#| msgctxt "Show track metadata"
+#| msgid "View Details"
+msgctxt "Show track metadata"
+msgid "View details"
+msgstr "Rodyti išsamiau"
+
+#: qml/ListBrowserDelegate.qml:382
+#, kde-format
+msgctxt "Enqueue current track"
+msgid "Add to queue"
+msgstr ""
+
+#: qml/MediaPlayerControl.qml:50
+#, fuzzy, kde-format
+#| msgctxt "Toggle between ascending and descending order"
+#| msgid "Toggle sort order"
+msgctxt "toggle the party mode"
+msgid "Toggle Party Mode"
+msgstr "Perjungti rikiavimo tvarką"
+
+#: qml/MediaPlayerControl.qml:58
+#: qml/mobile/MobileMinimizedPlayerControl.qml:228
+#: qml/mobile/MobileTrackPlayer.qml:323
+#, kde-format
+msgctxt "skip backward in playlists"
+msgid "Skip Backward"
+msgstr "Peršokti atgal"
+
+#: qml/MediaPlayerControl.qml:66
+#: qml/mobile/MobileMinimizedPlayerControl.qml:244
+#: qml/mobile/MobileTrackPlayer.qml:338
+#, kde-format
+msgctxt "toggle play and pause for the audio player"
+msgid "Toggle Play and Pause"
+msgstr "Perjungti atkūrimą ir pristabdymą"
+
+#: qml/MediaPlayerControl.qml:74
+#: qml/mobile/MobileMinimizedPlayerControl.qml:260
+#: qml/mobile/MobileTrackPlayer.qml:353
+#, kde-format
+msgctxt "skip forward in playlists"
+msgid "Skip Forward"
+msgstr "Peršokti pirmyn"
+
+#: qml/MediaPlayerControl.qml:98
+#, kde-format
+msgctxt "toggle mute mode for player"
+msgid "Toggle Mute"
+msgstr "Perjungti nutildymą"
+
+#: qml/MediaPlayerControl.qml:124 qml/mobile/MobileTrackPlayer.qml:215
+#, kde-format
+msgctxt "toggle shuffle mode for playlist"
+msgid "Toggle Shuffle"
+msgstr "Perjungti maišymą"
+
+#: qml/MediaPlayerControl.qml:135 qml/mobile/MobileTrackPlayer.qml:230
+#, fuzzy, kde-format
+#| msgid "Don't repeat tracks"
+msgid "Current: Don't repeat tracks"
+msgstr "Nekartoti takelių"
+
+#: qml/MediaPlayerControl.qml:136 qml/mobile/MobileTrackPlayer.qml:231
+#, fuzzy, kde-format
+#| msgid "Repeat current track"
+msgid "Current: Repeat current track"
+msgstr "Kartoti dabartinį takelį"
+
+#: qml/MediaPlayerControl.qml:137 qml/mobile/MobileTrackPlayer.qml:232
+#, fuzzy, kde-format
+#| msgid "Repeat all tracks in playlist"
+msgid "Current: Repeat all tracks in playlist"
+msgstr "Kartoti visus takelius grojaraštyje"
+
+#: qml/MediaPlayerControl.qml:167 qml/mobile/MobileTrackPlayer.qml:261
+#: qml/NativeGlobalMenu.qml:133
+#, kde-format
+msgid "Playlist"
+msgstr "Grojaraštis"
+
+#: qml/MediaPlayerControl.qml:171 qml/mobile/MobileTrackPlayer.qml:265
+#: qml/NativeGlobalMenu.qml:137
+#, kde-format
+msgid "One"
+msgstr "Vienas"
+
+#: qml/MediaPlayerControl.qml:175 qml/mobile/MobileTrackPlayer.qml:269
+#: qml/NativeGlobalMenu.qml:141
+#, kde-format
+msgid "None"
+msgstr "Nėra"
+
+#: qml/MediaPlayerControl.qml:191 qml/NativeGlobalMenu.qml:64
+#: qml/NativeTrayMenu.qml:51
+#, kde-format
+msgid "Show Playlist"
+msgstr "Rodyti grojaraštį"
+
+#: qml/MediaPlayListView.qml:57
+#, kde-format
+msgctxt ""
+"@info Title of the view of the playlist; keep this string as short as "
+"possible because horizontal space is quite scarce"
+msgid "Playlist"
+msgstr "Grojaraštis"
+
+#: qml/MediaPlayListView.qml:75
+#, kde-format
+msgctxt "Undo"
+msgid "Undo"
+msgstr "Atšaukti"
+
+#: qml/MediaPlayListView.qml:82 qml/MediaPlayListView.qml:89
+#, kde-format
+msgctxt "Retry"
+msgid "Retry"
+msgstr "Bandyti dar kartą"
+
+#: qml/MediaPlayListView.qml:97
+#, kde-format
+msgctxt "Message when playlist load failed"
+msgid "Loading failed"
+msgstr "Įkėlimas nepavyko"
+
+#: qml/MediaPlayListView.qml:109 qml/MediaPlayListView.qml:493
+#, kde-format
+msgctxt "Playlist cleared"
+msgid "Playlist cleared"
+msgstr "Grojaraštis išvalytas"
+
+#: qml/MediaPlayListView.qml:145
+#, kde-format
+msgctxt "Show currently played track inside playlist"
+msgid "Show Current Track"
+msgstr "Rodyti dabartinį takelį"
+
+#: qml/MediaPlayListView.qml:157
+#, kde-format
+msgctxt "Save a playlist file"
+msgid "Save Playlist..."
+msgstr "Įrašyti grojaraštį..."
+
+#: qml/MediaPlayListView.qml:169
+#, kde-format
+msgctxt "Load a playlist file"
+msgid "Load Playlist..."
+msgstr "Įkelti grojaraštį..."
+
+#: qml/MediaPlayListView.qml:179
+#, kde-format
+msgctxt "Remove all tracks from play list"
+msgid "Clear Playlist"
+msgstr "Išvalyti grojaraštį"
+
+#: qml/MediaPlayListView.qml:337
+#, fuzzy, kde-format
+#| msgctxt "Your playlist is empty"
+#| msgid "Your playlist is empty"
+msgid "Playlist is empty"
+msgstr "Jūsų grojaraštis yra tuščias"
+
+#: qml/MediaPlayListView.qml:338
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Your playlist is empty.<nl/><nl/>Add some songs to get started. You can "
+#| "browse your music using the views on the left."
+msgid ""
+"Add some songs to get started. You can browse your music using the views on "
+"the left."
+msgstr ""
+"Jūsų grojaraštis yra tuščias.<nl/><nl/>Norėdami pradėti, pridėkite dainų. "
+"Galite naršyti savo muziką naudodami rodinius kairėje."
+
+#: qml/MediaPlayListView.qml:464
+#, fuzzy, kde-kuit-format
+#| msgctxt "Your playlist is empty"
+#| msgid "Your playlist is empty"
+msgctxt "@info"
+msgid "Your playlist is empty."
+msgstr "Jūsų grojaraštis yra tuščias"
+
+#: qml/MediaPlayListView.qml:497
+#, fuzzy, kde-format
+#| msgctxt "Undo"
+#| msgid "Undo"
+msgid "Undo"
+msgstr "Atšaukti"
+
+#: qml/MediaPlayListView.qml:514
+#, kde-format
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "%1 takelis"
+msgstr[1] "%1 takeliai"
+msgstr[2] "%1 takelių"
+msgstr[3] "%1 takelis"
+
+#: qml/MediaPlayListView.qml:523
+#, kde-format
+msgid "Last track"
+msgstr "Paskutinis takelis"
+
+#: qml/MediaPlayListView.qml:523
+#, kde-format
+msgctxt "Number of remaining tracks in a playlist of songs"
+msgid "%1 remaining"
+msgid_plural "%1 remaining"
+msgstr[0] "Liko %1"
+msgstr[1] "Liko %1"
+msgstr[2] "Liko %1"
+msgstr[3] "Liko %1"
+
+#: qml/MediaPlayListView.qml:534
+#, fuzzy, kde-format
+#| msgctxt "file type (mime type) for m3u playlist"
+#| msgid "Playlist (*.m3u)"
+msgctxt "file type (mime type) for m3u and m3u8 playlist file formats"
+msgid "Playlist (*.m3u*)"
+msgstr "Grojaraštis (*.m3u)"
+
+#: qml/MediaPlayListView.qml:540
+#, kde-format
+msgctxt "Message when saving a playlist failed"
+msgid "Saving failed"
+msgstr "Įrašymas nepavyko"
+
+#: qml/MediaTrackMetadataForm.qml:37
+#, fuzzy, kde-format
+#| msgctxt "Form validation error message for track data"
+#| msgid "Data are not valid. %1"
+msgctxt "Form validation error message for track data"
+msgid "Data is not valid. %1"
+msgstr "Duomenys neteisingi. %1"
+
+#: qml/MediaTrackMetadataForm.qml:93
+#, fuzzy, kde-format
+#| msgctxt "label before button to add new metadata tag"
+#| msgid "Add new tag:"
+msgid "Add new tag:"
+msgstr "Pridėti naują žymę:"
+
+#: qml/MediaTrackMetadataForm.qml:112 qml/MediaTrackMetadataView.qml:160
+#, kde-format
+msgid "Modify"
+msgstr "Modifikuoti"
+
+#: qml/MediaTrackMetadataForm.qml:129 qml/MediaTrackMetadataView.qml:139
+#, kde-format
+msgid "Delete"
+msgstr "Ištrinti"
+
+#: qml/MediaTrackMetadataView.qml:35
+#: qml/mobile/MobileMediaTrackMetadataView.qml:39
+#, kde-format
+msgctxt "Window title for track metadata"
+msgid "Create a Radio"
+msgstr "Sukurti radiją"
+
+#: qml/MediaTrackMetadataView.qml:36
+#: qml/mobile/MobileMediaTrackMetadataView.qml:40
+#, kde-format
+msgctxt "Window title for track metadata"
+msgid "View Details"
+msgstr "Rodyti išsamiau"
+
+#: qml/MediaTrackMetadataView.qml:184 qml/mobile/MobileContextMenuSheet.qml:28
+#: qml/mobile/MobileMediaTrackMetadataView.qml:56
+#: qml/mobile/MobileSettingsPage.qml:38
+#, kde-format
+msgid "Close"
+msgstr "Užverti"
+
+#: qml/mobile/MobileMediaTrackMetadataView.qml:44
+#: qml/mobile/MobileSettingsPage.qml:30
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: qml/mobile/MobilePlayListDelegate.qml:177
+#, fuzzy, kde-format
+#| msgctxt "Title of the view of all tracks"
+#| msgid "Tracks"
+msgctxt "Track options"
+msgid "Track Options"
+msgstr "Takeliai"
+
+#: qml/mobile/MobilePlayListDelegate.qml:228
+#, kde-format
+msgctxt "Remove current track from play list"
+msgid "Remove from queue"
+msgstr ""
+
+#: qml/mobile/MobileSettingsPage.qml:26 qml/mobile/MobileSidebar.qml:38
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#: qml/mobile/MobileTrackPlayer.qml:49
+#, kde-format
+msgctxt "minimize player"
+msgid "Minimize Player"
+msgstr ""
+
+#: qml/mobile/MobileTrackPlayer.qml:203
+#, fuzzy, kde-format
+#| msgid "Show In Folder"
+msgctxt "show track information"
+msgid "Show Info"
+msgstr "Rodyti aplanke"
+
+#: qml/mobile/MobileVolumeButton.qml:27
+#, fuzzy, kde-format
+#| msgid "Increase Volume"
+msgctxt "change player volume"
+msgid "Change Volume"
+msgstr "Pagarsinti"
+
+#: qml/NativeGlobalMenu.qml:14
+#, kde-format
+msgctxt "menu category"
+msgid "File"
+msgstr "Failas"
+
+#: qml/NativeGlobalMenu.qml:17
+#, kde-format
+msgctxt "menu entry"
+msgid "Save Playlist..."
+msgstr "Įrašyti grojaraštį..."
+
+#: qml/NativeGlobalMenu.qml:23
+#, kde-format
+msgctxt "menu entry"
+msgid "Open Playlist..."
+msgstr "Atverti grojaraštį..."
+
+#: qml/NativeGlobalMenu.qml:49
+#, kde-format
+msgctxt "menu category"
+msgid "View"
+msgstr "Rodinys"
+
+#: qml/NativeGlobalMenu.qml:52
+#, fuzzy, kde-format
+#| msgctxt "Toggle between ascending and descending order"
+#| msgid "Toggle sort order"
+msgctxt "menu entry"
+msgid "Toggle Party Mode"
+msgstr "Perjungti rikiavimo tvarką"
+
+#: qml/NativeGlobalMenu.qml:58
+#, kde-format
+msgctxt "menu entry"
+msgid "Leave Fullscreen"
+msgstr "Išeiti iš viso ekrano"
+
+#: qml/NativeGlobalMenu.qml:58
+#, kde-format
+msgctxt "menu entry"
+msgid "Enter Fullscreen"
+msgstr "Visas ekranas"
+
+#: qml/NativeGlobalMenu.qml:64
+#, kde-format
+msgid "Hide Playlist"
+msgstr "Slėpti grojaraštį"
+
+#: qml/NativeGlobalMenu.qml:70
+#, kde-format
+msgctxt "menu category"
+msgid "Controls"
+msgstr "Valdikliai"
+
+#: qml/NativeGlobalMenu.qml:73 qml/NavigationActionBar.qml:124
+#, kde-format
+msgid "Play"
+msgstr "Atkurti"
+
+#: qml/NativeGlobalMenu.qml:73
+#, kde-format
+msgid "Pause"
+msgstr "Pristabdyti"
+
+#: qml/NativeGlobalMenu.qml:80
+#, kde-format
+msgid "Stop"
+msgstr "Stabdyti"
+
+#: qml/NativeGlobalMenu.qml:89
+#, kde-format
+msgid "Increase Volume"
+msgstr "Pagarsinti"
+
+#: qml/NativeGlobalMenu.qml:94
+#, kde-format
+msgid "Decrease Volume"
+msgstr "Tildyti"
+
+#: qml/NativeGlobalMenu.qml:104
+#, kde-format
+msgid "Shuffle"
+msgstr "Maišyti"
+
+#: qml/NativeGlobalMenu.qml:111
+#, kde-format
+msgid "On"
+msgstr "Įjungta"
+
+#: qml/NativeGlobalMenu.qml:117
+#, kde-format
+msgid "Off"
+msgstr "Išjungta"
+
+#: qml/NativeGlobalMenu.qml:126
+#, kde-format
+msgid "Repeat"
+msgstr "Kartoti"
+
+#: qml/NativeGlobalMenu.qml:147
+#, kde-format
+msgctxt "menu category"
+msgid "Help"
+msgstr "Pagalba"
+
+#: qml/NavigationActionBar.qml:78
+#, kde-format
+msgctxt "Sort By Menu Title with no sort selected"
+msgid "Sort: %1"
+msgstr "Rikiuoti: %1"
+
+#: qml/NavigationActionBar.qml:80
+#, kde-format
+msgctxt "Sort By Menu Title with no sort selected"
+msgid "Sort"
+msgstr "Rikiuoti"
+
+#: qml/NavigationActionBar.qml:100
+#, kde-format
+msgctxt "Create a new radio"
+msgid "Create a radio"
+msgstr "Sukurti radiją"
+
+#: qml/NavigationActionBar.qml:112
+#, kde-format
+msgctxt "Add current list to playlist"
+msgid "Enqueue"
+msgstr "Statyti į eilę"
+
+#: qml/NavigationActionBar.qml:136
+#, kde-format
+msgctxt "Button to navigate to the artist of the album"
+msgid "Display Artist"
+msgstr "Rodyti atlikėją"
+
+#: qml/NavigationActionBar.qml:193
+#, kde-format
+msgctxt "navigate back in the views stack"
+msgid "Back"
+msgstr "Atgal"
+
+#: qml/NavigationActionBar.qml:275
+#, kde-format
+msgctxt "Show filters in the navigation bar"
+msgid "Show Search Options"
+msgstr "Rodyti paieškos parinktis"
+
+#: qml/NavigationActionBar.qml:275
+#, kde-format
+msgctxt "Hide filters in the navigation bar"
+msgid "Hide Search Options"
+msgstr "Slėpti paieškos parinktis"
+
+#: qml/NavigationActionBar.qml:366
+#, kde-format
+msgid "Search for album name, artist, etc."
+msgstr "Ieškoti albumo pavadinimo, atlikėjo ir t.t."
+
+#: qml/NavigationActionBar.qml:375
+#, kde-format
+msgid "Filter by rating: "
+msgstr "Filtruoti pagal įvertinimą: "
+
+#: qml/PlayListEntry.qml:215
+#, kde-format
+msgctxt "Pause current track from play list"
+msgid "Pause"
+msgstr "Pristabdyti"
+
+#: qml/PlayListEntry.qml:215
+#, kde-format
+msgctxt "Play this track from play list"
+msgid "Play"
+msgstr "Atkurti"
+
+#: qml/PlayListEntry.qml:231
+#, kde-format
+msgctxt "Remove current track from play list"
+msgid "Remove"
+msgstr "Šalinti"
+
+#: qml/SettingsForm.qml:29
+#, kde-format
+msgid "General:"
+msgstr "Bendra:"
+
+#: qml/SettingsForm.qml:31
+#, kde-format
+msgid "Show background on Now Playing page"
+msgstr ""
+
+#: qml/SettingsForm.qml:42
+#, kde-format
+msgid "Show progress on Task Manager entries"
+msgstr "Rodyti eigą ant užduočių tvarkytuvės įrašų"
+
+#: qml/SettingsForm.qml:51
+#, kde-format
+msgid "Keep running in System Tray when main window is closed"
+msgstr "Užvėrus pagrindinį langą, palikti programą veikiančią sistemos dėkle"
+
+#: qml/SettingsForm.qml:60
+#, kde-format
+msgid "Start playing on startup"
+msgstr "Pradėti atkūrimą paleidus programą"
+
+#: qml/SettingsForm.qml:97
+#, fuzzy, kde-format
+#| msgctxt "Refresh Music Collection application menu entry"
+#| msgid "Refresh Music Collection"
+msgid "Refresh Music Collection"
+msgstr "Įkelti muzikos kolekciją iš naujo"
+
+#: qml/SettingsForm.qml:115
+#, kde-format
+msgid "Embed category in sidebar:"
+msgstr "Įterpti kategoriją į šoninę juostą:"
+
+#: qml/SettingsForm.qml:117
+#, kde-format
+msgctxt "Configure dialog, embed no category in views navigation list"
+msgid "Nothing"
+msgstr "Nieko"
+
+#: qml/SettingsForm.qml:118
+#, kde-format
+msgctxt "Configure dialog, embed all albums in views navigation list"
+msgid "Albums"
+msgstr "Albumai"
+
+#: qml/SettingsForm.qml:119
+#, kde-format
+msgctxt "Configure dialog, embed all artists in views navigation list"
+msgid "Artists"
+msgstr "Atlikėjai"
+
+#: qml/SettingsForm.qml:120
+#, kde-format
+msgctxt "Configure dialog, embed all genres in views navigation list"
+msgid "Genres"
+msgstr "Žanrai"
+
+#: qml/SettingsForm.qml:154
+#, kde-format
+msgid "Initial view on startup:"
+msgstr "Pradinis rodinys paleidus programą:"
+
+#: qml/SettingsForm.qml:156 viewslistdata.cpp:23
+#, kde-format
+msgctxt "Title of the view of the playlist"
+msgid "Now Playing"
+msgstr "Dabar atkuriama"
+
+#: qml/SettingsForm.qml:157 viewslistdata.cpp:26
+#, kde-format
+msgctxt "Title of the view of recently played tracks"
+msgid "Recently Played"
+msgstr "Paskiausiai atkurta"
+
+#: qml/SettingsForm.qml:158 viewslistdata.cpp:41
+#, kde-format
+msgctxt "Title of the view of frequently played tracks"
+msgid "Frequently Played"
+msgstr "Dažniausiai atkurta"
+
+#: qml/SettingsForm.qml:161 viewslistdata.cpp:86
+#, kde-format
+msgctxt "Title of the view of all tracks"
+msgid "Tracks"
+msgstr "Takeliai"
+
+#: qml/SettingsForm.qml:163 viewslistdata.cpp:120
+#, kde-format
+msgctxt "Title of the file browser view"
+msgid "Files"
+msgstr "Failai"
+
+#: qml/SettingsForm.qml:164 viewslistdata.cpp:132
+#, kde-format
+msgctxt "Title of the file radios browser view"
+msgid "Radios"
+msgstr "Radijai"
+
+#: qml/SettingsForm.qml:189
+#, kde-format
+msgid "Music indexing:"
+msgstr "Muzikos indeksavimas:"
+
+#: qml/SettingsForm.qml:196
+#, kde-format
+msgctxt "Configure dialog, indexing type"
+msgid "Use fast native indexer"
+msgstr "Naudoti greitą savą indeksatorių"
+
+#: qml/SettingsForm.qml:197
+#, kde-format
+msgctxt "Configure dialog, indexing type"
+msgid "Scan the filesystem directly"
+msgstr "Peržiūrėti failų sistemą tiesiogiai"
+
+#: qml/SettingsForm.qml:212
+#, kde-kuit-format
+msgid ""
+"This is slower than the fast indexer. Please activate it only if Elisa "
+"cannot find your music and searching for one of the missing music files "
+"using your file manager also does not work. Please report this as a bug."
+msgstr ""
+"Tai yra lėčiau nei greitasis indeksatorius. Aktyvuokite tai tik tuo atveju, "
+"jei Elisa negali rasti jūsų muzikos, o trūkstamo muzikinio failo paieška "
+"naudojant failų tvarkytuvę taip pat neveikia. Prašome pranešti apie tai, "
+"kaip apie programos klaidą."
+
+#: qml/SettingsForm.qml:216
+#, kde-format
+msgid "Report Bug"
+msgstr "Pranešti apie programos klaidą"
+
+#: qml/SettingsForm.qml:232
+#, kde-format
+msgctxt "The configured folders where the user's music collection can be found"
+msgid "Music folders:"
+msgstr "Muzikos aplankai:"
+
+#: qml/SettingsForm.qml:265
+#, kde-format
+msgid "Stop looking for music here"
+msgstr "Nustoti ieškoti čia muzikos"
+
+#: qml/SettingsForm.qml:276
+#, kde-format
+msgid "Add New Location"
+msgstr "Pridėti naują vietą"
+
+#: qml/SettingsForm.qml:286
+#, kde-format
+msgid "Choose a Folder"
+msgstr "Pasirinkti aplanką"
+
+#: qml/SortMenu.qml:20
+#, kde-format
+msgctxt "Sort By Menu"
+msgid "Sort By"
+msgstr "Rikiuoti pagal"
+
+#: qml/TrackImportNotification.qml:70 qml/TrackImportNotification.qml:85
+#, kde-format
+msgctxt "number of imported tracks"
+msgid "Imported one track"
+msgid_plural "Imported %1 tracks"
+msgstr[0] "Importuotas vienas takelis"
+msgstr[1] "Importuoti %1 takeliai"
+msgstr[2] "Importuota %1 takelių"
+msgstr[3] "Importuotas %1 takelis"
+
+#: qml/TrackImportNotification.qml:73
+#, kde-format
+msgctxt "message to show when Elisa is scanning music files"
+msgid "Scanning music"
+msgstr "Peržiūrima muzika"
+
+#: qml/TracksDiscHeader.qml:20
+#, kde-format
+msgctxt "disc header text when showing an album"
+msgid "Disc %1"
+msgstr "Diskas %1"
+
+#: viewmanager.cpp:42 viewmanager.cpp:72 viewslistdata.cpp:64
+#: viewslistdata.cpp:96 viewslistdata.cpp:566
+#, kde-format
+msgid "Title"
+msgstr "Pavadinimas"
+
+#: viewmanager.cpp:44 viewmanager.cpp:59 viewmanager.cpp:74 viewmanager.cpp:89
+#: viewslistdata.cpp:66 viewslistdata.cpp:81 viewslistdata.cpp:99
+#: viewslistdata.cpp:100 viewslistdata.cpp:115 viewslistdata.cpp:142
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "A-Z"
+msgstr "A-Ž"
+
+#: viewmanager.cpp:44 viewmanager.cpp:59 viewmanager.cpp:74 viewmanager.cpp:89
+#: viewslistdata.cpp:66 viewslistdata.cpp:81 viewslistdata.cpp:99
+#: viewslistdata.cpp:100 viewslistdata.cpp:115 viewslistdata.cpp:142
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "Z-A"
+msgstr "Ž-A"
+
+#: viewmanager.cpp:57 viewmanager.cpp:87 viewslistdata.cpp:79
+#: viewslistdata.cpp:140 viewslistdata.cpp:585
+#, kde-format
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: viewmanager.cpp:72 viewslistdata.cpp:64 viewslistdata.cpp:96
+#: viewslistdata.cpp:113 viewslistdata.cpp:566 viewslistdata.cpp:604
+#, kde-format
+msgid "Genre"
+msgstr "Žanras"
+
+#: viewmanager.cpp:72 viewslistdata.cpp:64 viewslistdata.cpp:97
+#: viewslistdata.cpp:566
+#, kde-format
+msgid "Year"
+msgstr "Metai"
+
+#: viewmanager.cpp:74 viewslistdata.cpp:66 viewslistdata.cpp:100
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "Oldest First"
+msgstr "Pirmiausia seniausi"
+
+#: viewmanager.cpp:74 viewslistdata.cpp:66 viewslistdata.cpp:100
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "Newest First"
+msgstr "Pirmiausia naujausi"
+
+#: viewslistdata.cpp:34
+#, kde-format
+msgid "Last Played Date"
+msgstr "Paskutinio atkūrimo data"
+
+#: viewslistdata.cpp:36
+#, kde-format
+msgid "Least Recently Played First"
+msgstr "Pirmiausia seniausiai atkurti"
+
+#: viewslistdata.cpp:36
+#, kde-format
+msgid "Most Recently Played First"
+msgstr "Pirmiausia paskiausiai atkurti"
+
+#: viewslistdata.cpp:49
+#, kde-format
+msgid "Play Frequency"
+msgstr "Atkūrimo dažnis"
+
+#: viewslistdata.cpp:51
+#, kde-format
+msgid "Least Frequently Played First"
+msgstr "Pirmiausia rečiausiai atkurti"
+
+#: viewslistdata.cpp:51
+#, kde-format
+msgid "Most Frequently Played First"
+msgstr "Pirmiausia dažniausiai atkurti"
+
+#: viewslistdata.cpp:64 viewslistdata.cpp:96 viewslistdata.cpp:566
+#, kde-format
+msgid "Artist"
+msgstr "Atlikėjas"
+
+#: viewslistdata.cpp:96
+#, kde-format
+msgid "Album"
+msgstr "Albumas"
+
+#: viewslistdata.cpp:97
+#, kde-format
+msgid "Duration"
+msgstr "Trukmė"
+
+#: viewslistdata.cpp:97
+#, kde-format
+msgid "Composer"
+msgstr "Kompozitorius"
+
+#: viewslistdata.cpp:97
+#, kde-format
+msgid "Lyricist"
+msgstr "Dainos žodžių autorius"
+
+#: viewslistdata.cpp:100
+#, kde-format
+msgid "Shortest First"
+msgstr "Pirmiausia trumpiausi"
+
+#: viewslistdata.cpp:100
+#, kde-format
+msgid "Longest First"
+msgstr "Pirmiausia ilgiausi"
+
+#~ msgctxt "toggle between maximized and minimized ivre"
+#~ msgid "Toggle Maximize"
+#~ msgstr "Perjungti išskleidimą"
+
+#~ msgctxt "menu entry"
+#~ msgid "Collapse Player"
+#~ msgstr "Suskleisti grotuvą"
+
+#~ msgctxt "menu entry"
+#~ msgid "Expand Player"
+#~ msgstr "Išskleisti grotuvą"
+
+#~ msgctxt "message of passive notification when playlist load failed"
+#~ msgid "Load of playlist failed"
+#~ msgstr "Grojaraščio įkėlimas nepavyko"
+
+#~ msgctxt "Label for a piece of metadata, e.g. 'Album Artist:'"
+#~ msgid "%1:"
+#~ msgstr "%1:"
+
+#~ msgctxt "%1: track number. %2: track title"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgid "Play now, replacing contents of Playlist"
+#~ msgstr "Atkurti dabar, pakeičiant grojaraščio turinį"
+
+#~ msgid "Music Search Configuration"
+#~ msgstr "Muzikos paieškos konfigūracija"
+
+#, fuzzy
+#~| msgctxt "Title of the view of all albums"
+#~| msgid "Albums"
+#~ msgctxt "Configure dialog, embed all albums in views navigation list"
+#~ msgid "Embed Albums"
+#~ msgstr "Albumai"
+
+#, fuzzy
+#~| msgctxt "Title of the view of all artists"
+#~| msgid "Artists"
+#~ msgctxt "Configure dialog, embed all artists in views navigation list"
+#~ msgid "Embed Artists"
+#~ msgstr "Atlikėjai"
+
+#, fuzzy
+#~| msgctxt "Title of the view of all genres"
+#~| msgid "Genres"
+#~ msgctxt "Configure dialog, embed all genres in views navigation list"
+#~ msgid "Embed Genres"
+#~ msgstr "Žanrai"
+
+#~ msgctxt "toggle repeat mode for playlist"
+#~ msgid "Toggle Repeat"
+#~ msgstr "Perjungti kartojimą"
+
+#~ msgctxt "%1: track number. %2: track title. %3: artist name"
+#~ msgid "<b>%1 - %2</b> - <i>%3</i>"
+#~ msgstr "<b>%1 - %2</b> - <i>%3</i>"
+
+#~ msgctxt "%1: track number. %2: track title."
+#~ msgid "<b>%1 - %2</b>"
+#~ msgstr "<b>%1 - %2</b>"
+
+#~ msgctxt "%1: track title. %2: artist name"
+#~ msgid "<b>%1</b> - <i>%2</i>"
+#~ msgstr "<b>%1</b> - <i>%2</i>"
+
+#~ msgctxt "%1: track title"
+#~ msgid "<b>%1</b>"
+#~ msgstr "<b>%1</b>"
+
+#~ msgctxt "display of artist and album in context view"
+#~ msgid "<i>by</i> <b>%1</b> <i>from</i> <b>%2</b>"
+#~ msgstr "<i>atlieka</i> <b>%1</b> <i>iš albumo</i> <b>%2</b>"
+
+#~ msgctxt "display of album in context view"
+#~ msgid "<i>from</i> <b>%1</b>"
+#~ msgstr "<i>iš albumo</i> <b>%1</b>"
+
+#~ msgctxt "display of artist in context view"
+#~ msgid "<i>by</i> <b>%1</b>"
+#~ msgstr "<i>atlieka</i> <b>%1</b>"

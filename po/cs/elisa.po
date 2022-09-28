@@ -1,0 +1,1249 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Vít Pelčák <vit@pelcak.org>, 2016, 2017, 2018, 2019, 2020, 2021.
+# Vit Pelcak <vpelcak@suse.cz>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-16 01:42+0000\n"
+"PO-Revision-Date: 2021-09-01 14:51+0200\n"
+"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.08.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vít Pelčák"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "vit@pelcak.org"
+
+#: databaseinterface.cpp:7087 databaseinterface.cpp:8129
+#: databaseinterface.cpp:8213
+#, kde-format
+msgid "Various Artists"
+msgstr "Různí umělci"
+
+#: databaseinterface.cpp:7151
+#, kde-format
+msgid "Radios"
+msgstr "Rádia"
+
+#: elisaapplication.cpp:176
+#, kde-format
+msgid "Toggle Playlist"
+msgstr "Zapnout seznam skladeb"
+
+#: elisaapplication.cpp:181
+#, kde-format
+msgid "Seek forward 10 seconds"
+msgstr "Posunout vpřed o 10 vteřin"
+
+#: elisaapplication.cpp:187
+#, kde-format
+msgid "Scrub backwards 10 seconds"
+msgstr "Posunout vzad o 10 vteřin"
+
+#: elisaapplication.cpp:193
+#, kde-format
+msgid "Go to next track"
+msgstr "Přejít na následující skladbu"
+
+#: elisaapplication.cpp:199
+#, kde-format
+msgid "Go to previous track"
+msgstr "Přejít na předchozí skladbu"
+
+#: elisaapplication.cpp:205
+#, kde-format
+msgid "Play/pause"
+msgstr "Přehrát/Pozastavit"
+
+#: elisaapplication.cpp:216
+#, kde-format
+msgid "Toggle Party Mode"
+msgstr "Přepnout režim párty"
+
+#: main.cpp:106 qml/ElisaMainWindow.qml:56 qml/mobile/MobileSidebar.qml:20
+#, kde-format
+msgid "Elisa"
+msgstr "Elisa"
+
+#: main.cpp:108
+#, kde-format
+msgid "A Simple Music Player made with love by the KDE community"
+msgstr "Jednoduchý přehrávač hudby napsaný s láskou komunitou KDE"
+
+#: main.cpp:110
+#, kde-format
+msgid "(c) 2015-2020, Elisa contributors"
+msgstr "(c) 2015-2020, přispěvatelé do aplikace Elisa"
+
+#: main.cpp:112
+#, kde-format
+msgid "Creator"
+msgstr "Vytvořil"
+
+#: main.cpp:113
+#, kde-format
+msgid "Author"
+msgstr "Autor"
+
+#: main.cpp:115
+#, kde-format
+msgid "Concept and design work"
+msgstr "Práce na konceptu a návrhu"
+
+#: main.cpp:116
+#, kde-format
+msgid "Localization support"
+msgstr "Podpora překladu"
+
+#: main.cpp:117
+#, kde-format
+msgid "Right to left support in interface"
+msgstr "Podpora rozvržení zprava doleva"
+
+#: main.cpp:118
+#, kde-format
+msgid "Various improvements to the interface"
+msgstr "Různá vylepšení rozhraní"
+
+#: main.cpp:119
+#, kde-format
+msgid "Support for online radios"
+msgstr "Podpora pro rádia online"
+
+#: models/editabletrackmetadatamodel.cpp:348
+#, kde-format
+msgctxt "Error message when track URL is invalid"
+msgid "Invalid URL."
+msgstr "Neplatné URL."
+
+#: models/editabletrackmetadatamodel.cpp:358
+#, kde-format
+msgctxt "Error message when track title is empty"
+msgid "Empty title."
+msgstr "Prázdný nadpis."
+
+#: models/trackmetadatamodel.cpp:440 models/trackmetadatamodel.cpp:487
+#, kde-format
+msgctxt "Track title for track metadata view"
+msgid "Title"
+msgstr "Název"
+
+#: models/trackmetadatamodel.cpp:442 models/trackmetadatamodel.cpp:493
+#, kde-format
+msgctxt "Track artist for track metadata view"
+msgid "Artist"
+msgstr "Umělec"
+
+#: models/trackmetadatamodel.cpp:444 models/trackmetadatamodel.cpp:496
+#, kde-format
+msgctxt "Album name for track metadata view"
+msgid "Album"
+msgstr "Album"
+
+#: models/trackmetadatamodel.cpp:446 models/trackmetadatamodel.cpp:499
+#, kde-format
+msgctxt "Album artist for track metadata view"
+msgid "Album Artist"
+msgstr "Umělec alba"
+
+#: models/trackmetadatamodel.cpp:448 models/trackmetadatamodel.cpp:502
+#, kde-format
+msgctxt "Track number for track metadata view"
+msgid "Track Number"
+msgstr "Číslo stopy"
+
+#: models/trackmetadatamodel.cpp:450 models/trackmetadatamodel.cpp:505
+#, kde-format
+msgctxt "Disc number for track metadata view"
+msgid "Disc Number"
+msgstr "Číslo disku"
+
+#: models/trackmetadatamodel.cpp:452 models/trackmetadatamodel.cpp:508
+#, kde-format
+msgctxt "Rating label for information panel"
+msgid "Rating"
+msgstr "Hodnocení"
+
+#: models/trackmetadatamodel.cpp:454 models/trackmetadatamodel.cpp:511
+#, kde-format
+msgctxt "Genre label for track metadata view"
+msgid "Genre"
+msgstr "Žánr"
+
+#: models/trackmetadatamodel.cpp:456 models/trackmetadatamodel.cpp:514
+#, kde-format
+msgctxt "Lyricist label for track metadata view"
+msgid "Lyricist"
+msgstr "Textař"
+
+#: models/trackmetadatamodel.cpp:458 models/trackmetadatamodel.cpp:517
+#, kde-format
+msgctxt "Composer name for track metadata view"
+msgid "Composer"
+msgstr "Skladatel"
+
+#: models/trackmetadatamodel.cpp:460 models/trackmetadatamodel.cpp:520
+#, kde-format
+msgctxt "Comment label for track metadata view"
+msgid "Comment"
+msgstr "Komentář"
+
+#: models/trackmetadatamodel.cpp:462 models/trackmetadatamodel.cpp:523
+#, kde-format
+msgctxt "Year label for track metadata view"
+msgid "Year"
+msgstr "Rok"
+
+#: models/trackmetadatamodel.cpp:464 models/trackmetadatamodel.cpp:526
+#, kde-format
+msgctxt "Channels label for track metadata view"
+msgid "Channels"
+msgstr "Kanály"
+
+#: models/trackmetadatamodel.cpp:466 models/trackmetadatamodel.cpp:529
+#, kde-format
+msgctxt "Bit rate label for track metadata view"
+msgid "Bit Rate"
+msgstr "Datový tok"
+
+#: models/trackmetadatamodel.cpp:468 models/trackmetadatamodel.cpp:532
+#, kde-format
+msgctxt "Sample Rate label for track metadata view"
+msgid "Sample Rate"
+msgstr "Vzorkovací frekvence"
+
+#: models/trackmetadatamodel.cpp:470 models/trackmetadatamodel.cpp:544
+#, kde-format
+msgctxt "Lyrics label for track metadata view"
+msgid "Lyrics"
+msgstr "Text písně"
+
+#: models/trackmetadatamodel.cpp:472 models/trackmetadatamodel.cpp:490
+#, kde-format
+msgctxt "Duration label for track metadata view"
+msgid "Duration"
+msgstr "Trvání"
+
+#: models/trackmetadatamodel.cpp:535
+#, kde-format
+msgctxt "Last play date label for track metadata view"
+msgid "Last played"
+msgstr "Naposledy přehráno"
+
+#: models/trackmetadatamodel.cpp:538
+#, kde-format
+msgctxt "First play date label for track metadata view"
+msgid "First played"
+msgstr "Poprvé přehráno"
+
+#: models/trackmetadatamodel.cpp:541
+#, kde-format
+msgctxt "Play counter label for track metadata view"
+msgid "Play count"
+msgstr "Počet přehrání"
+
+#: models/trackmetadatamodel.cpp:547
+#, kde-format
+msgctxt "Radio HTTP address for radio metadata view"
+msgid "Stream Http Address"
+msgstr "Adresa http proudu"
+
+#: models/trackmetadatamodel.cpp:550
+#, kde-format
+msgctxt "Image address for radio metadata view"
+msgid "Image Address"
+msgstr "Adresa obrázku"
+
+#: models/viewsmodel.cpp:109 qml/SettingsForm.qml:159 viewslistdata.cpp:56
+#: viewslistdata.cpp:558
+#, kde-format
+msgctxt "Title of the view of all albums"
+msgid "Albums"
+msgstr "Alba"
+
+#: models/viewsmodel.cpp:112 qml/SettingsForm.qml:162 viewslistdata.cpp:105
+#: viewslistdata.cpp:596
+#, kde-format
+msgctxt "Title of the view of all genres"
+msgid "Genres"
+msgstr "Žánry"
+
+#: models/viewsmodel.cpp:115 qml/SettingsForm.qml:160 viewslistdata.cpp:71
+#: viewslistdata.cpp:577
+#, kde-format
+msgctxt "Title of the view of all artists"
+msgid "Artists"
+msgstr "Umělci"
+
+#: powermanagementinterface.cpp:173 powermanagementinterface.cpp:223
+#, kde-format
+msgctxt "explanation for sleep inhibit during play of music"
+msgid "Playing Music"
+msgstr "Přehrát hudbu"
+
+#: qml/ApplicationMenu.qml:15 qml/MediaPlayerControl.qml:201
+#: qml/NativeTrayMenu.qml:14
+#, kde-format
+msgctxt "open application menu"
+msgid "Application Menu"
+msgstr "Nabídka aplikací"
+
+#: qml/ApplicationMenu.qml:25 qml/NativeGlobalMenu.qml:29
+#: qml/NativeTrayMenu.qml:25
+#, kde-format
+msgctxt "Refresh Music Collection application menu entry"
+msgid "Refresh Music Collection"
+msgstr "Obnovit hudební sbírku"
+
+#: qml/ApplicationMenu.qml:34 qml/SettingsForm.qml:71 qml/SettingsForm.qml:76
+#, kde-format
+msgid "Color Scheme"
+msgstr "Barevné schéma"
+
+#: qml/ContextView.qml:39
+#, kde-format
+msgctxt "Title of the context view related to the currently playing track"
+msgid "Now Playing"
+msgstr "Nyní přehrávám"
+
+#: qml/ContextView.qml:71 qml/NavigationActionBar.qml:185
+#, kde-format
+msgctxt "open the sidebar"
+msgid "Open sidebar"
+msgstr "Otevřít postranní panel"
+
+#: qml/ContextView.qml:118
+#, kde-format
+msgctxt "One of the 'now playing' views"
+msgid "Metadata"
+msgstr "Metadata"
+
+#: qml/ContextView.qml:131
+#, kde-format
+msgctxt "One of the 'now playing' views"
+msgid "Lyrics"
+msgstr "Text písně"
+
+#: qml/ContextView.qml:138 qml/mobile/MobileTrackPlayer.qml:369
+#: qml/NavigationActionBar.qml:148
+#, kde-format
+msgctxt "show the playlist"
+msgid "Show Playlist"
+msgstr "Zobrazit seznam skladeb"
+
+#: qml/ContextView.qml:301
+#, kde-format
+msgid "No lyrics found"
+msgstr "Text písně nebyl nalezen"
+
+#: qml/ContextView.qml:314
+#, kde-format
+msgid "Nothing playing"
+msgstr "Nic nehraje."
+
+#: qml/ContextView.qml:345
+#, kde-format
+msgid "Show In Folder"
+msgstr "Zobrazit ve složce"
+
+#: qml/DurationSlider.qml:47
+#, kde-format
+msgctxt "This is used to preserve a fixed width for the duration text."
+msgid "00:00:00"
+msgstr "00:00:00"
+
+#: qml/ElisaConfigurationDialog.qml:21
+#, kde-format
+msgid "Configure"
+msgstr "Nastavit"
+
+#: qml/ElisaConfigurationDialog.qml:43
+#, kde-format
+msgid "OK"
+msgstr "OK"
+
+#: qml/ElisaConfigurationDialog.qml:54 qml/MediaTrackMetadataView.qml:170
+#, kde-format
+msgid "Apply"
+msgstr "Použít"
+
+#: qml/ElisaConfigurationDialog.qml:64
+#, kde-format
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: qml/ElisaConfigurationDialog.qml:81
+#, kde-format
+msgid "Warning"
+msgstr "Varování"
+
+#: qml/GridBrowserDelegate.qml:203 qml/GridBrowserDelegate.qml:418
+#: qml/ListBrowserDelegate.qml:262 qml/ListBrowserDelegate.qml:364
+#: qml/mobile/MobilePlayListDelegate.qml:202 qml/PlayListEntry.qml:181
+#, kde-format
+msgctxt "Show the file for this song in the file manager"
+msgid "Show in folder"
+msgstr "Zobrazit ve složce"
+
+#: qml/GridBrowserDelegate.qml:228 qml/ListBrowserDelegate.qml:274
+#: qml/PlayListEntry.qml:194
+#, kde-format
+msgctxt "Show track metadata"
+msgid "View Details"
+msgstr "Zobrazit podrobnosti"
+
+#: qml/GridBrowserDelegate.qml:259
+#, kde-format
+msgctxt "Clear play list and add whole container to play list"
+msgid "Play now, replacing current playlist"
+msgstr "Přehrát nyní a nahradit současný seznam skladeb"
+
+#: qml/GridBrowserDelegate.qml:281
+#, kde-format
+msgctxt "Add whole container to play list"
+msgid "Add to playlist"
+msgstr "Přidat do seznamu skladeb"
+
+#: qml/GridBrowserDelegate.qml:369
+#, kde-format
+msgctxt "Options"
+msgid "Options"
+msgstr "Možnosti"
+
+#: qml/GridBrowserDelegate.qml:408
+#, kde-format
+msgctxt "Clear play list and add whole container to play list"
+msgid "Play now, replacing current queue"
+msgstr "Přehrát nyní a nahradit současnou frontu"
+
+#: qml/GridBrowserDelegate.qml:427
+#, kde-format
+msgctxt "Add whole container to play list"
+msgid "Add to queue"
+msgstr "Zařadit do fronty"
+
+#: qml/GridBrowserView.qml:210 qml/ListBrowserView.qml:180
+#, kde-format
+msgid "Nothing to display"
+msgstr "Není co zobrazit"
+
+#: qml/ListBrowserDelegate.qml:167 qml/ListBrowserDelegate.qml:183
+#, kde-format
+msgctxt "%1: track number. %2: track title."
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: qml/ListBrowserDelegate.qml:178
+#, kde-format
+msgctxt "%1: track number. %2: track title. %3: artist name"
+msgid "%1 - %2 - %3"
+msgstr "%1 - %2 - %3"
+
+#: qml/ListBrowserDelegate.qml:190
+#, kde-format
+msgctxt "%1: track title. %2: artist name"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: qml/ListBrowserDelegate.qml:284
+#, kde-format
+msgctxt "Enqueue current track"
+msgid "Enqueue"
+msgstr "Zařadit do fronty"
+
+#: qml/ListBrowserDelegate.qml:295
+#, kde-format
+msgctxt "Clear play list and enqueue current track"
+msgid "Play Now and Replace Play List"
+msgstr "Přehrát nyní a nahradit seznam skladeb"
+
+#: qml/ListBrowserDelegate.qml:336
+#, kde-format
+msgctxt "Song options"
+msgid "Song Options"
+msgstr "Volby písně"
+
+#: qml/ListBrowserDelegate.qml:373 qml/mobile/MobilePlayListDelegate.qml:218
+#, kde-format
+msgctxt "Show track metadata"
+msgid "View details"
+msgstr "Zobrazit podrobnosti"
+
+#: qml/ListBrowserDelegate.qml:382
+#, kde-format
+msgctxt "Enqueue current track"
+msgid "Add to queue"
+msgstr "Zařadit do fronty"
+
+#: qml/MediaPlayerControl.qml:50
+#, kde-format
+msgctxt "toggle the party mode"
+msgid "Toggle Party Mode"
+msgstr "Přepnout režim párty"
+
+#: qml/MediaPlayerControl.qml:58
+#: qml/mobile/MobileMinimizedPlayerControl.qml:228
+#: qml/mobile/MobileTrackPlayer.qml:323
+#, kde-format
+msgctxt "skip backward in playlists"
+msgid "Skip Backward"
+msgstr "Přeskočit zpět"
+
+#: qml/MediaPlayerControl.qml:66
+#: qml/mobile/MobileMinimizedPlayerControl.qml:244
+#: qml/mobile/MobileTrackPlayer.qml:338
+#, kde-format
+msgctxt "toggle play and pause for the audio player"
+msgid "Toggle Play and Pause"
+msgstr "Přepínač Přehrát a Pozastavit"
+
+#: qml/MediaPlayerControl.qml:74
+#: qml/mobile/MobileMinimizedPlayerControl.qml:260
+#: qml/mobile/MobileTrackPlayer.qml:353
+#, kde-format
+msgctxt "skip forward in playlists"
+msgid "Skip Forward"
+msgstr "Přeskočit vpřed"
+
+#: qml/MediaPlayerControl.qml:98
+#, kde-format
+msgctxt "toggle mute mode for player"
+msgid "Toggle Mute"
+msgstr "Přepnout ztlumení"
+
+#: qml/MediaPlayerControl.qml:124 qml/mobile/MobileTrackPlayer.qml:215
+#, kde-format
+msgctxt "toggle shuffle mode for playlist"
+msgid "Toggle Shuffle"
+msgstr "Zapnout míchání"
+
+#: qml/MediaPlayerControl.qml:135 qml/mobile/MobileTrackPlayer.qml:230
+#, kde-format
+msgid "Current: Don't repeat tracks"
+msgstr "Současné: Neopakovat skladby"
+
+#: qml/MediaPlayerControl.qml:136 qml/mobile/MobileTrackPlayer.qml:231
+#, kde-format
+msgid "Current: Repeat current track"
+msgstr "Současné: Opakovat aktuální skladbu"
+
+#: qml/MediaPlayerControl.qml:137 qml/mobile/MobileTrackPlayer.qml:232
+#, kde-format
+msgid "Current: Repeat all tracks in playlist"
+msgstr "Současné: Opakovat všechny skladby v seznamu"
+
+#: qml/MediaPlayerControl.qml:167 qml/mobile/MobileTrackPlayer.qml:261
+#: qml/NativeGlobalMenu.qml:133
+#, kde-format
+msgid "Playlist"
+msgstr "Seznam skladeb"
+
+#: qml/MediaPlayerControl.qml:171 qml/mobile/MobileTrackPlayer.qml:265
+#: qml/NativeGlobalMenu.qml:137
+#, kde-format
+msgid "One"
+msgstr "Jedna"
+
+# žádné parametry funkce v inspektoru funkcí
+#: qml/MediaPlayerControl.qml:175 qml/mobile/MobileTrackPlayer.qml:269
+#: qml/NativeGlobalMenu.qml:141
+#, kde-format
+msgid "None"
+msgstr "Nic"
+
+#: qml/MediaPlayerControl.qml:191 qml/NativeGlobalMenu.qml:64
+#: qml/NativeTrayMenu.qml:51
+#, kde-format
+msgid "Show Playlist"
+msgstr "Zobrazit seznam skladeb"
+
+#: qml/MediaPlayListView.qml:57
+#, kde-format
+msgctxt ""
+"@info Title of the view of the playlist; keep this string as short as "
+"possible because horizontal space is quite scarce"
+msgid "Playlist"
+msgstr "Seznam skladeb"
+
+#: qml/MediaPlayListView.qml:75
+#, kde-format
+msgctxt "Undo"
+msgid "Undo"
+msgstr "Zpět"
+
+#: qml/MediaPlayListView.qml:82 qml/MediaPlayListView.qml:89
+#, kde-format
+msgctxt "Retry"
+msgid "Retry"
+msgstr "Zkusit znovu"
+
+#: qml/MediaPlayListView.qml:97
+#, kde-format
+msgctxt "Message when playlist load failed"
+msgid "Loading failed"
+msgstr "Načítání selhalo"
+
+#: qml/MediaPlayListView.qml:109 qml/MediaPlayListView.qml:493
+#, kde-format
+msgctxt "Playlist cleared"
+msgid "Playlist cleared"
+msgstr "Seznam skladeb byl vymazán"
+
+#: qml/MediaPlayListView.qml:145
+#, kde-format
+msgctxt "Show currently played track inside playlist"
+msgid "Show Current Track"
+msgstr "Zobrazit současnou skladbu"
+
+#: qml/MediaPlayListView.qml:157
+#, kde-format
+msgctxt "Save a playlist file"
+msgid "Save Playlist..."
+msgstr "Uložit seznam skladeb..."
+
+#: qml/MediaPlayListView.qml:169
+#, kde-format
+msgctxt "Load a playlist file"
+msgid "Load Playlist..."
+msgstr "Načíst seznam skladeb..."
+
+#: qml/MediaPlayListView.qml:179
+#, kde-format
+msgctxt "Remove all tracks from play list"
+msgid "Clear Playlist"
+msgstr "Smazat seznam skladeb"
+
+#: qml/MediaPlayListView.qml:337
+#, kde-format
+msgid "Playlist is empty"
+msgstr "Seznam skladeb je prázdný"
+
+#: qml/MediaPlayListView.qml:338
+#, kde-format
+msgid ""
+"Add some songs to get started. You can browse your music using the views on "
+"the left."
+msgstr ""
+"Pro začátek můžete přidat nějakou skladbu. Hudbu můžete prohlížet pohledy "
+"nalevo."
+
+#: qml/MediaPlayListView.qml:464
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Your playlist is empty."
+msgstr "Seznam skladeb je prázdný."
+
+#: qml/MediaPlayListView.qml:497
+#, kde-format
+msgid "Undo"
+msgstr "Zpět"
+
+#: qml/MediaPlayListView.qml:514
+#, kde-format
+msgid "%1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "%1 skladba"
+msgstr[1] "%1 skladby"
+msgstr[2] "%1 skladeb"
+
+#: qml/MediaPlayListView.qml:523
+#, kde-format
+msgid "Last track"
+msgstr "Poslední skladba"
+
+#: qml/MediaPlayListView.qml:523
+#, kde-format
+msgctxt "Number of remaining tracks in a playlist of songs"
+msgid "%1 remaining"
+msgid_plural "%1 remaining"
+msgstr[0] "Zbývá %1"
+msgstr[1] "Zbývá %1"
+msgstr[2] "Zbývá %1"
+
+#: qml/MediaPlayListView.qml:534
+#, kde-format
+msgctxt "file type (mime type) for m3u and m3u8 playlist file formats"
+msgid "Playlist (*.m3u*)"
+msgstr "Seznam skladeb (*.m3u*)"
+
+#: qml/MediaPlayListView.qml:540
+#, kde-format
+msgctxt "Message when saving a playlist failed"
+msgid "Saving failed"
+msgstr "Ukládání selhalo"
+
+#: qml/MediaTrackMetadataForm.qml:37
+#, kde-format
+msgctxt "Form validation error message for track data"
+msgid "Data is not valid. %1"
+msgstr "Data jsou neplatná. %1"
+
+#: qml/MediaTrackMetadataForm.qml:93
+#, kde-format
+msgid "Add new tag:"
+msgstr "Přidat novou značku:"
+
+#: qml/MediaTrackMetadataForm.qml:112 qml/MediaTrackMetadataView.qml:160
+#, kde-format
+msgid "Modify"
+msgstr "Změnit"
+
+#: qml/MediaTrackMetadataForm.qml:129 qml/MediaTrackMetadataView.qml:139
+#, kde-format
+msgid "Delete"
+msgstr "Smazat"
+
+#: qml/MediaTrackMetadataView.qml:35
+#: qml/mobile/MobileMediaTrackMetadataView.qml:39
+#, kde-format
+msgctxt "Window title for track metadata"
+msgid "Create a Radio"
+msgstr "Vytvořit rádio"
+
+#: qml/MediaTrackMetadataView.qml:36
+#: qml/mobile/MobileMediaTrackMetadataView.qml:40
+#, kde-format
+msgctxt "Window title for track metadata"
+msgid "View Details"
+msgstr "Zobrazit podrobnosti"
+
+#: qml/MediaTrackMetadataView.qml:184 qml/mobile/MobileContextMenuSheet.qml:28
+#: qml/mobile/MobileMediaTrackMetadataView.qml:56
+#: qml/mobile/MobileSettingsPage.qml:38
+#, kde-format
+msgid "Close"
+msgstr "Zavřít"
+
+#: qml/mobile/MobileMediaTrackMetadataView.qml:44
+#: qml/mobile/MobileSettingsPage.qml:30
+#, kde-format
+msgid "Save"
+msgstr "Uložit"
+
+#: qml/mobile/MobilePlayListDelegate.qml:177
+#, kde-format
+msgctxt "Track options"
+msgid "Track Options"
+msgstr "Možnosti skladby"
+
+#: qml/mobile/MobilePlayListDelegate.qml:228
+#, kde-format
+msgctxt "Remove current track from play list"
+msgid "Remove from queue"
+msgstr "Odstranit z fronty"
+
+#: qml/mobile/MobileSettingsPage.qml:26 qml/mobile/MobileSidebar.qml:38
+#, kde-format
+msgid "Settings"
+msgstr "Nastavení"
+
+#: qml/mobile/MobileTrackPlayer.qml:49
+#, kde-format
+msgctxt "minimize player"
+msgid "Minimize Player"
+msgstr "Minimalizovat přehrávač"
+
+#: qml/mobile/MobileTrackPlayer.qml:203
+#, kde-format
+msgctxt "show track information"
+msgid "Show Info"
+msgstr "Zobrazit informace"
+
+#: qml/mobile/MobileVolumeButton.qml:27
+#, kde-format
+msgctxt "change player volume"
+msgid "Change Volume"
+msgstr "Změnit hodnotu"
+
+#: qml/NativeGlobalMenu.qml:14
+#, kde-format
+msgctxt "menu category"
+msgid "File"
+msgstr "Soubor"
+
+#: qml/NativeGlobalMenu.qml:17
+#, kde-format
+msgctxt "menu entry"
+msgid "Save Playlist..."
+msgstr "Uložit seznam skladeb..."
+
+#: qml/NativeGlobalMenu.qml:23
+#, kde-format
+msgctxt "menu entry"
+msgid "Open Playlist..."
+msgstr "Otevřít seznam skladeb..."
+
+#: qml/NativeGlobalMenu.qml:49
+#, kde-format
+msgctxt "menu category"
+msgid "View"
+msgstr "Pohled"
+
+#: qml/NativeGlobalMenu.qml:52
+#, kde-format
+msgctxt "menu entry"
+msgid "Toggle Party Mode"
+msgstr "Přepnout režim párty"
+
+#: qml/NativeGlobalMenu.qml:58
+#, kde-format
+msgctxt "menu entry"
+msgid "Leave Fullscreen"
+msgstr "Opustit režim celé obrazovky"
+
+#: qml/NativeGlobalMenu.qml:58
+#, kde-format
+msgctxt "menu entry"
+msgid "Enter Fullscreen"
+msgstr "Přejít do celoobrazovkového režimu"
+
+#: qml/NativeGlobalMenu.qml:64
+#, kde-format
+msgid "Hide Playlist"
+msgstr "Skrýt seznam skladeb"
+
+#: qml/NativeGlobalMenu.qml:70
+#, kde-format
+msgctxt "menu category"
+msgid "Controls"
+msgstr "Ovládání"
+
+#: qml/NativeGlobalMenu.qml:73 qml/NavigationActionBar.qml:124
+#, kde-format
+msgid "Play"
+msgstr "Přehrát"
+
+#: qml/NativeGlobalMenu.qml:73
+#, kde-format
+msgid "Pause"
+msgstr "Pozastavit"
+
+#: qml/NativeGlobalMenu.qml:80
+#, kde-format
+msgid "Stop"
+msgstr "Zastavit"
+
+#: qml/NativeGlobalMenu.qml:89
+#, kde-format
+msgid "Increase Volume"
+msgstr "Zvýšit hlasitost"
+
+#: qml/NativeGlobalMenu.qml:94
+#, kde-format
+msgid "Decrease Volume"
+msgstr "Snížit hlasitost"
+
+#: qml/NativeGlobalMenu.qml:104
+#, kde-format
+msgid "Shuffle"
+msgstr "Zamíchat"
+
+#: qml/NativeGlobalMenu.qml:111
+#, kde-format
+msgid "On"
+msgstr "Zapnuto"
+
+#: qml/NativeGlobalMenu.qml:117
+#, kde-format
+msgid "Off"
+msgstr "Vypnuto"
+
+#: qml/NativeGlobalMenu.qml:126
+#, kde-format
+msgid "Repeat"
+msgstr "Opakovat"
+
+#: qml/NativeGlobalMenu.qml:147
+#, kde-format
+msgctxt "menu category"
+msgid "Help"
+msgstr "Nápověda"
+
+#: qml/NavigationActionBar.qml:78
+#, kde-format
+msgctxt "Sort By Menu Title with no sort selected"
+msgid "Sort: %1"
+msgstr "Seřadit: %1"
+
+#: qml/NavigationActionBar.qml:80
+#, kde-format
+msgctxt "Sort By Menu Title with no sort selected"
+msgid "Sort"
+msgstr "Seřadit"
+
+#: qml/NavigationActionBar.qml:100
+#, kde-format
+msgctxt "Create a new radio"
+msgid "Create a radio"
+msgstr "Vytvořit rádio"
+
+#: qml/NavigationActionBar.qml:112
+#, kde-format
+msgctxt "Add current list to playlist"
+msgid "Enqueue"
+msgstr "Zařadit do fronty"
+
+#: qml/NavigationActionBar.qml:136
+#, kde-format
+msgctxt "Button to navigate to the artist of the album"
+msgid "Display Artist"
+msgstr "Zobrazit umělce"
+
+#: qml/NavigationActionBar.qml:193
+#, kde-format
+msgctxt "navigate back in the views stack"
+msgid "Back"
+msgstr "Zpět"
+
+#: qml/NavigationActionBar.qml:275
+#, kde-format
+msgctxt "Show filters in the navigation bar"
+msgid "Show Search Options"
+msgstr "Zobrazit volby vyhledávání"
+
+#: qml/NavigationActionBar.qml:275
+#, kde-format
+msgctxt "Hide filters in the navigation bar"
+msgid "Hide Search Options"
+msgstr "Skrýt volby hledání"
+
+#: qml/NavigationActionBar.qml:366
+#, kde-format
+msgid "Search for album name, artist, etc."
+msgstr "Hledat název alba, umělce apod."
+
+#: qml/NavigationActionBar.qml:375
+#, kde-format
+msgid "Filter by rating: "
+msgstr "Filtrovat podle hodnocení: "
+
+#: qml/PlayListEntry.qml:215
+#, kde-format
+msgctxt "Pause current track from play list"
+msgid "Pause"
+msgstr "Pozastavit"
+
+#: qml/PlayListEntry.qml:215
+#, kde-format
+msgctxt "Play this track from play list"
+msgid "Play"
+msgstr "Přehrát"
+
+#: qml/PlayListEntry.qml:231
+#, kde-format
+msgctxt "Remove current track from play list"
+msgid "Remove"
+msgstr "Odstranit"
+
+#: qml/SettingsForm.qml:29
+#, kde-format
+msgid "General:"
+msgstr "Obecné:"
+
+#: qml/SettingsForm.qml:31
+#, kde-format
+msgid "Show background on Now Playing page"
+msgstr "Ukázat pozadí na stránce \"Nyní přehrávám\""
+
+#: qml/SettingsForm.qml:42
+#, kde-format
+msgid "Show progress on Task Manager entries"
+msgstr "Zobrazit průběh v položkách Správce úloh"
+
+#: qml/SettingsForm.qml:51
+#, kde-format
+msgid "Keep running in System Tray when main window is closed"
+msgstr "Nechat běžet v systémové liště i po zavření hlavního okna"
+
+#: qml/SettingsForm.qml:60
+#, kde-format
+msgid "Start playing on startup"
+msgstr "Spustit přehrávání při spuštění"
+
+#: qml/SettingsForm.qml:97
+#, kde-format
+msgid "Refresh Music Collection"
+msgstr "Obnovit hudební sbírku"
+
+#: qml/SettingsForm.qml:115
+#, kde-format
+msgid "Embed category in sidebar:"
+msgstr "Zahrnout kategorii v postranní liště:"
+
+#: qml/SettingsForm.qml:117
+#, kde-format
+msgctxt "Configure dialog, embed no category in views navigation list"
+msgid "Nothing"
+msgstr "Nic"
+
+#: qml/SettingsForm.qml:118
+#, kde-format
+msgctxt "Configure dialog, embed all albums in views navigation list"
+msgid "Albums"
+msgstr "Alba"
+
+#: qml/SettingsForm.qml:119
+#, kde-format
+msgctxt "Configure dialog, embed all artists in views navigation list"
+msgid "Artists"
+msgstr "Umělci"
+
+#: qml/SettingsForm.qml:120
+#, kde-format
+msgctxt "Configure dialog, embed all genres in views navigation list"
+msgid "Genres"
+msgstr "Žánry"
+
+#: qml/SettingsForm.qml:154
+#, kde-format
+msgid "Initial view on startup:"
+msgstr "Počáteční pohled při spuštění:"
+
+#: qml/SettingsForm.qml:156 viewslistdata.cpp:23
+#, kde-format
+msgctxt "Title of the view of the playlist"
+msgid "Now Playing"
+msgstr "Nyní přehrávám"
+
+#: qml/SettingsForm.qml:157 viewslistdata.cpp:26
+#, kde-format
+msgctxt "Title of the view of recently played tracks"
+msgid "Recently Played"
+msgstr "Nedávno hrané"
+
+#: qml/SettingsForm.qml:158 viewslistdata.cpp:41
+#, kde-format
+msgctxt "Title of the view of frequently played tracks"
+msgid "Frequently Played"
+msgstr "Často hrané"
+
+#: qml/SettingsForm.qml:161 viewslistdata.cpp:86
+#, kde-format
+msgctxt "Title of the view of all tracks"
+msgid "Tracks"
+msgstr "Skladby"
+
+#: qml/SettingsForm.qml:163 viewslistdata.cpp:120
+#, kde-format
+msgctxt "Title of the file browser view"
+msgid "Files"
+msgstr "Soubory"
+
+#: qml/SettingsForm.qml:164 viewslistdata.cpp:132
+#, kde-format
+msgctxt "Title of the file radios browser view"
+msgid "Radios"
+msgstr "Rádia"
+
+#: qml/SettingsForm.qml:189
+#, kde-format
+msgid "Music indexing:"
+msgstr "Indexování hudby:"
+
+#: qml/SettingsForm.qml:196
+#, kde-format
+msgctxt "Configure dialog, indexing type"
+msgid "Use fast native indexer"
+msgstr "Použít vlastní rychlý indexer"
+
+#: qml/SettingsForm.qml:197
+#, kde-format
+msgctxt "Configure dialog, indexing type"
+msgid "Scan the filesystem directly"
+msgstr "Prohledat souborový systém přímo"
+
+#: qml/SettingsForm.qml:212
+#, kde-kuit-format
+msgid ""
+"This is slower than the fast indexer. Please activate it only if Elisa "
+"cannot find your music and searching for one of the missing music files "
+"using your file manager also does not work. Please report this as a bug."
+msgstr ""
+"Tohle je pomalejší než rychlé indexování. Prosím, aktivujte jej pouze pokud "
+"Elisa nemůže najít vaši hudbu a ani hledání souboru pomocí správce souborů "
+"nepomáhá. Prosím, nahlaste to jako chybu."
+
+#: qml/SettingsForm.qml:216
+#, kde-format
+msgid "Report Bug"
+msgstr "Nahlásit chybu"
+
+#: qml/SettingsForm.qml:232
+#, kde-format
+msgctxt "The configured folders where the user's music collection can be found"
+msgid "Music folders:"
+msgstr "Složky s hudbou:"
+
+#: qml/SettingsForm.qml:265
+#, kde-format
+msgid "Stop looking for music here"
+msgstr "Přestat zde hledat hudbu"
+
+#: qml/SettingsForm.qml:276
+#, kde-format
+msgid "Add New Location"
+msgstr "Přidat nové umístění"
+
+#: qml/SettingsForm.qml:286
+#, kde-format
+msgid "Choose a Folder"
+msgstr "Vyberte složku"
+
+#: qml/SortMenu.qml:20
+#, kde-format
+msgctxt "Sort By Menu"
+msgid "Sort By"
+msgstr "Řadit dle"
+
+#: qml/TrackImportNotification.qml:70 qml/TrackImportNotification.qml:85
+#, kde-format
+msgctxt "number of imported tracks"
+msgid "Imported one track"
+msgid_plural "Imported %1 tracks"
+msgstr[0] "Importována jedna skladba"
+msgstr[1] "Importovány %1 skladby"
+msgstr[2] "Importováno %1 skladeb"
+
+#: qml/TrackImportNotification.qml:73
+#, kde-format
+msgctxt "message to show when Elisa is scanning music files"
+msgid "Scanning music"
+msgstr "Prohledávání adresářů s hudbou"
+
+#: qml/TracksDiscHeader.qml:20
+#, kde-format
+msgctxt "disc header text when showing an album"
+msgid "Disc %1"
+msgstr "Disk %1"
+
+#: viewmanager.cpp:42 viewmanager.cpp:72 viewslistdata.cpp:64
+#: viewslistdata.cpp:96 viewslistdata.cpp:566
+#, kde-format
+msgid "Title"
+msgstr "Název"
+
+#: viewmanager.cpp:44 viewmanager.cpp:59 viewmanager.cpp:74 viewmanager.cpp:89
+#: viewslistdata.cpp:66 viewslistdata.cpp:81 viewslistdata.cpp:99
+#: viewslistdata.cpp:100 viewslistdata.cpp:115 viewslistdata.cpp:142
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "A-Z"
+msgstr "A-Z"
+
+#: viewmanager.cpp:44 viewmanager.cpp:59 viewmanager.cpp:74 viewmanager.cpp:89
+#: viewslistdata.cpp:66 viewslistdata.cpp:81 viewslistdata.cpp:99
+#: viewslistdata.cpp:100 viewslistdata.cpp:115 viewslistdata.cpp:142
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "Z-A"
+msgstr "Z-A"
+
+# Tohle vypadá na název vlastnosti. Jméno bycvh nechal pro lidi a zvířata.
+#: viewmanager.cpp:57 viewmanager.cpp:87 viewslistdata.cpp:79
+#: viewslistdata.cpp:140 viewslistdata.cpp:585
+#, kde-format
+msgid "Name"
+msgstr "Název"
+
+#: viewmanager.cpp:72 viewslistdata.cpp:64 viewslistdata.cpp:96
+#: viewslistdata.cpp:113 viewslistdata.cpp:566 viewslistdata.cpp:604
+#, kde-format
+msgid "Genre"
+msgstr "Žánr"
+
+#: viewmanager.cpp:72 viewslistdata.cpp:64 viewslistdata.cpp:97
+#: viewslistdata.cpp:566
+#, kde-format
+msgid "Year"
+msgstr "Rok"
+
+#: viewmanager.cpp:74 viewslistdata.cpp:66 viewslistdata.cpp:100
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "Oldest First"
+msgstr "Nejdříve nejstarší"
+
+#: viewmanager.cpp:74 viewslistdata.cpp:66 viewslistdata.cpp:100
+#: viewslistdata.cpp:568
+#, kde-format
+msgid "Newest First"
+msgstr "Nejdříve nejnovější"
+
+#: viewslistdata.cpp:34
+#, kde-format
+msgid "Last Played Date"
+msgstr "Datum posledního přehrání"
+
+#: viewslistdata.cpp:36
+#, kde-format
+msgid "Least Recently Played First"
+msgstr "Nejdříve dávno hrané"
+
+#: viewslistdata.cpp:36
+#, kde-format
+msgid "Most Recently Played First"
+msgstr "Nejdříve nedávno hrané"
+
+#: viewslistdata.cpp:49
+#, kde-format
+msgid "Play Frequency"
+msgstr "Frekvence přehrávání"
+
+#: viewslistdata.cpp:51
+#, kde-format
+msgid "Least Frequently Played First"
+msgstr "Nejméně často hrané nejdříve"
+
+#: viewslistdata.cpp:51
+#, kde-format
+msgid "Most Frequently Played First"
+msgstr "Nejčastěji hrané nejdříve"
+
+#: viewslistdata.cpp:64 viewslistdata.cpp:96 viewslistdata.cpp:566
+#, kde-format
+msgid "Artist"
+msgstr "Umělec"
+
+#: viewslistdata.cpp:96
+#, kde-format
+msgid "Album"
+msgstr "Album"
+
+#: viewslistdata.cpp:97
+#, kde-format
+msgid "Duration"
+msgstr "Trvání"
+
+#: viewslistdata.cpp:97
+#, kde-format
+msgid "Composer"
+msgstr "Skladatel"
+
+#: viewslistdata.cpp:97
+#, kde-format
+msgid "Lyricist"
+msgstr "Textař"
+
+#: viewslistdata.cpp:100
+#, kde-format
+msgid "Shortest First"
+msgstr "Nejdříve nejkratší"
+
+#: viewslistdata.cpp:100
+#, kde-format
+msgid "Longest First"
+msgstr "Nejdříve nejdelší"

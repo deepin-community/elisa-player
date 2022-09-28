@@ -1,0 +1,83 @@
+Source: elisa-player
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+Build-Depends: baloo-kf5-dev (>= 5.80.0~),
+               cmake (>= 3.8~),
+               dbus <!nocheck>,
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.80.0~),
+               gettext,
+               kirigami2-dev (>= 5.80.0~),
+               libkf5config-dev (>= 5.80.0~),
+               libkf5configwidgets-dev (>= 5.80.0~),
+               libkf5coreaddons-dev (>= 5.80.0~),
+               libkf5crash-dev (>= 5.80.0~),
+               libkf5dbusaddons-dev (>= 5.80.0~),
+               libkf5declarative-dev (>= 5.80.0~),
+               libkf5doctools-dev (>= 5.80.0~),
+               libkf5filemetadata-bin (>= 5.77.0~) <!nocheck>,
+               libkf5filemetadata-dev (>= 5.80.0~),
+               libkf5filemetadata3 (>= 5.77.0~) <!nocheck>,
+               libkf5i18n-dev (>= 5.80.0~),
+               libkf5kcmutils-dev (>= 5.77.0~),
+               libkf5kio-dev (>= 5.80.0~),
+               libkf5package-dev (>= 5.80.0~),
+               libkf5xmlgui-dev (>= 5.80.0~),
+               libqt5multimedia5-plugins (>= 5.15.0~) <!nocheck>,
+               libqt5sql5-sqlite (>= 5.15.0~) <!nocheck>,
+               libqt5svg5-dev (>= 5.15.0~),
+               libvlc-dev,
+               libvlccore-dev,
+               pkg-config,
+               pkg-kde-tools,
+               qml-module-qtmultimedia (>= 5.15.0~) <!nocheck>,
+               qml-module-qtqml-models2 (>= 5.15.0~) <!nocheck>,
+               qml-module-qtquick-controls (>= 5.15.0~) <!nocheck>,
+               qml-module-qtquick-controls2 (>= 5.15.0~) <!nocheck>,
+               qml-module-qtquick-layouts (>= 5.15.0~) <!nocheck>,
+               qml-module-qttest (>= 5.15.0~) <!nocheck>,
+               qtbase5-dev (>= 5.15.0~),
+               qtbase5-private-dev (>= 5.15.0~),
+               qtdeclarative5-dev (>= 5.15.0~),
+               qtmultimedia5-dev (>= 5.15.0~),
+               qtquickcontrols2-5-dev (>= 5.15.0~),
+               xauth <!nocheck>,
+               xvfb <!nocheck>,
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Homepage: https://invent.kde.org/multimedia/elisa
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/elisa
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/elisa.git
+
+Package: elisa
+Architecture: any
+Depends: breeze-icon-theme (>= 5.77.0~),
+         libqt5multimedia5-plugins (>= 5.15.0~),
+         libqt5sql5-sqlite (>= 5.15.0~),
+         qml-module-org-kde-kcm (>= 5.77.0~),
+         qml-module-org-kde-kirigami2 (>= 5.77.0~),
+         qml-module-qt-labs-platform (>= 5.15.0~),
+         qml-module-qt-labs-settings (>= 5.15.0~),
+         qml-module-qtgraphicaleffects (>= 5.15.0~),
+         qml-module-qtqml (>= 5.15.0~),
+         qml-module-qtqml-models2 (>= 5.15.0~),
+         qml-module-qtquick-controls2 (>= 5.15.0~),
+         qml-module-qtquick-dialogs (>= 5.15.0~),
+         qml-module-qtquick-layouts (>= 5.15.0~),
+         qml-module-qtquick-window2 (>= 5.15.0~),
+         qml-module-qtquick2 (>= 5.15.0~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: Simple music player with a focus on Plasma desktop integration and privacy
+ Elisa is a music player developed by the KDE community that strives to be
+ simple and nice to use. It tries to be flexible to account for different
+ workflows and use-cases. It focuses on a very good integration with the
+ Plasma desktop of the KDE community without compromising the support for
+ other environments.
+ .
+ Elisa is developed using modern KDE technologies and aims to be reliable
+ and respectful of users’ privacy. As such, it favors online services where
+ users are in control of their data.

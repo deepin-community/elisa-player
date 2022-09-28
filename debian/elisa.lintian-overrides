@@ -1,0 +1,6 @@
+# Elisa doesn’t have any command line argument
+elisa: no-manual-page usr/bin/elisa
+# private location for the libraries
+elisa: custom-library-search-path usr/bin/elisa RUNPATH usr/lib/*/elisa/
+# private location for the libraries
+elisa: custom-library-search-path usr/lib/*/qt5/qml/org/kde/elisa/libelisaqmlplugin.so RUNPATH usr/lib/*/elisa/
